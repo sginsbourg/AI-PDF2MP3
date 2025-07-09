@@ -256,5 +256,5 @@ call "%VENV_DIR%\Scripts\deactivate.bat" 2>nul
 echo %DATE% %TIME% - Script completed successfully >> "%LOG_FILE%"
 
 :: Pause to allow user to see output before exiting
-pause
+REM pause
 endlocal
