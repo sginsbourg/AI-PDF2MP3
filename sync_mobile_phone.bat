@@ -1,5 +1,5 @@
 @echo off
-rem This batch file syncs two folders using Robocopy.
+rem This batch file syncs audio files from one folder to another using Robocopy.
 
 rem Define the source and destination folders.
 set "source_folder=C:\Users\sgins\Downloads\AI-Generated-Audio-Books"
@@ -16,17 +16,17 @@ if not exist "%source_folder%" (
 )
 
 rem Robocopy command with a set of useful options:
+rem The list of file extensions (*.mp3, *.m4a, etc.) restricts the sync to only these types.
 rem /E   : Copies subdirectories, including empty ones.
-rem /MIR : Mirrors a directory tree (equivalent to /E and /PURGE).
-rem        This means it will copy new files, update changed files,
-rem        and delete files from the destination that are no longer
-rem        in the source. This is a true synchronization.
+rem /MIR : Mirrors a directory tree (equivalent to /E and /PURGE), but only for the specified files.
+rem        This means it will copy new audio files, update changed audio files,
+rem        and delete audio files from the destination that are no longer in the source.
 rem /R:1 : Retries failed copies 1 time.
 rem /W:1 : Waits 1 second between retries.
 rem /NP  : No Progress - prevents Robocopy from showing the percentage.
 rem /LOG:sync_log.txt : Writes the output to a log file instead of the console.
-echo Syncing folders...
-"%robocopy_exe%" "%source_folder%" "%destination_folder%" /MIR /R:1 /W:1 /NP /LOG:sync_log.txt
+echo Syncing only audio files...
+"%robocopy_exe%" "%source_folder%" "%destination_folder%" *.mp3 *.m4a *.aac *.flac *.wma *.ogg *.wav /MIR /R:1 /W:1 /NP /LOG:sync_log.txt
 
 echo Sync complete. Check sync_log.txt for details.
 pause
