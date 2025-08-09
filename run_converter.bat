@@ -7,7 +7,21 @@ cd /d "%~dp0"
 echo Checking for Python...
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
-    echo Python is not installed or not in your PATH. Please install Python first.
+    echo Python is not installed or not in your PATH. Please install Python.
+    echo For Python 3.13+, ensure audioop-lts is installed.
+    echo Download Python from https://www.python.org/downloads/
+    pause
+    exit /b
+)
+
+echo.
+echo Checking for FFmpeg installation at C:\ffmpeg\bin...
+if exist "C:\ffmpeg\bin\ffmpeg.exe" (
+    echo FFmpeg found at C:\ffmpeg\bin\ffmpeg.exe
+) else (
+    echo FFmpeg not found at C:\ffmpeg\bin\ffmpeg.exe
+    echo Please install FFmpeg from https://ffmpeg.org/download.html at C:\ffmpeg.
+    echo See instructions in file-to-audio-converter.py for details.
     pause
     exit /b
 )
@@ -38,7 +52,7 @@ if %errorlevel% neq 0 (
 
 echo.
 echo Installing required Python libraries...
-pip install python-docx PyPDF2 pyttsx3 pydub
+pip install python-docx PyPDF2 pyttsx3 pydub comtypes pypiwin32 pywin32 audioop-lts
 if %errorlevel% neq 0 (
     echo Failed to install required libraries.
     echo Please make sure you have internet access and that pip is working correctly.
@@ -52,6 +66,5 @@ echo.
 python "%SCRIPT_NAME%"
 
 echo.
-rem --- The following lines were changed to add the automatic timer ---
-echo Script finished. This window will close automatically in 30 seconds...
-timeout /t 30
+echo Script finished. Press any key to exit.
+pause

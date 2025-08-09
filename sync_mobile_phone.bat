@@ -1,32 +1,45 @@
 @echo off
-rem This batch file syncs audio files from one folder to another using Robocopy.
+rem --- Define Source and Destination Folders ---
+set "source_folder=C:\Users\sgins\OneDrive\Documents\GitHub\AI-PDF2MP3"
+set "primary_dest_folder=C:\Users\sgins\Downloads\AI-Generated-Audio-Books"
+set "secondary_dest_folder=C:\Users\sgins\CrossDevice\Shay's S24+\storage\Audiobooks\AI-Generated-Audio-Books"
 
-rem Define the source and destination folders.
-set "source_folder=C:\Users\sgins\Downloads\AI-Generated-Audio-Books"
-set "destination_folder=C:\Users\sgins\CrossDevice\Shay's S24+\storage\Audiobooks\AI-Generated-Audio-Books"
+echo source_folder          = %source_folder%
+echo primary_dest_folder    = %primary_dest_folder%
+echo secondary_dest_folder  = %secondary_dest_folder%
 
-rem Define the full path to the robocopy executable.
-set "robocopy_exe=C:\Windows\System32\robocopy.exe"
-
-rem Check if the source folder exists before running the sync.
-if not exist "%source_folder%" (
-    echo Source folder does not exist: %source_folder%
-    pause
-    exit /b
+rem --- Check if Destination Folders Exist and Create Them if Necessary ---
+if not exist "%primary_dest_folder%" (
+    echo Primary destination folder does not exist. Creating it...
+    mkdir "%primary_dest_folder%"
+)
+if not exist "%secondary_dest_folder%" (
+    echo Secondary destination folder does not exist. Creating it...
+    mkdir "%secondary_dest_folder%"
 )
 
-rem Robocopy command with a set of useful options:
-rem The list of file extensions (*.mp3, *.m4a, etc.) restricts the sync to only these types.
-rem /E   : Copies subdirectories, including empty ones.
-rem /MIR : Mirrors a directory tree (equivalent to /E and /PURGE), but only for the specified files.
-rem        This means it will copy new audio files, update changed audio files,
-rem        and delete audio files from the destination that are no longer in the source.
-rem /R:1 : Retries failed copies 1 time.
-rem /W:1 : Waits 1 second between retries.
-rem /NP  : No Progress - prevents Robocopy from showing the percentage.
-rem /LOG:sync_log.txt : Writes the output to a log file instead of the console.
-echo Syncing only audio files...
-"%robocopy_exe%" "%source_folder%" "%destination_folder%" *.mp3 *.m4a *.aac *.flac *.wma *.ogg *.wav /MIR /R:1 /W:1 /NP /LOG:sync_log.txt
+rem --- Step 1: Move audio files from source to primary destination ---
+echo.
+echo Step 1: Moving audio files from source to primary destination...
+if exist "%source_folder%\*.mp3" move /Y "%source_folder%\*.mp3" "%primary_dest_folder%\"
+if exist "%source_folder%\*.m4a" move /Y "%source_folder%\*.m4a" "%primary_dest_folder%\"
+if exist "%source_folder%\*.aac" move /Y "%source_folder%\*.aac" "%primary_dest_folder%\"
+if exist "%source_folder%\*.wma" move /Y "%source_folder%\*.wma" "%primary_dest_folder%\"
+if exist "%source_folder%\*.ogg" move /Y "%source_folder%\*.ogg" "%primary_dest_folder%\"
+if exist "%source_folder%\*.wav" move /Y "%source_folder%\*.wav" "%primary_dest_folder%\"
+if exist "%source_folder%\*.flac" move /Y "%source_folder%\*.flac" "%primary_dest_folder%\"
 
-echo Sync complete. Check sync_log.txt for details.
+rem --- Step 2: Copy files from primary destination to secondary destination ---
+echo.
+echo Step 2: Copying audio files from primary destination to secondary destination...
+if exist "%primary_dest_folder%\*.mp3" copy /Y "%primary_dest_folder%\*.mp3" "%secondary_dest_folder%\"
+if exist "%primary_dest_folder%\*.m4a" copy /Y "%primary_dest_folder%\*.m4a" "%secondary_dest_folder%\"
+if exist "%primary_dest_folder%\*.aac" copy /Y "%primary_dest_folder%\*.aac" "%secondary_dest_folder%\"
+if exist "%primary_dest_folder%\*.wma" copy /Y "%primary_dest_folder%\*.wma" "%secondary_dest_folder%\"
+if exist "%primary_dest_folder%\*.ogg" copy /Y "%primary_dest_folder%\*.ogg" "%secondary_dest_folder%\"
+if exist "%primary_dest_folder%\*.wav" copy /Y "%primary_dest_folder%\*.wav" "%secondary_dest_folder%\"
+if exist "%primary_dest_folder%\*.flac" copy /Y "%primary_dest_folder%\*.flac" "%secondary_dest_folder%\"
+
+echo.
+echo Operation completed.
 pause
