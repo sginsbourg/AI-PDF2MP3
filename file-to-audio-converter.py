@@ -41,7 +41,7 @@ else:
 def extract_text_from_file(file_path):
     """
     Extracts text from a TXT, DOCX, or PDF file as a list of (text, type) tuples.
-    Type is 'heading' or 'paragraph'.
+    Type is 'heading', 'paragraph', 'list', or 'quote'.
     """
     file_extension = os.path.splitext(file_path)[1].lower()
     text_segments = []
@@ -52,16 +52,27 @@ def extract_text_from_file(file_path):
                 # Split by double newlines
                 segments = [s.strip() for s in text.split('\n\n') if s.strip()]
                 for segment in segments:
-                    # Heuristic: short segments (<50 chars) are headings
-                    segment_type = "heading" if len(segment) < 50 else "paragraph"
+                    # Heuristic: detect segment type
+                    if len(segment) < 50:
+                        segment_type = "heading"
+                    elif segment.startswith(('- ', '* ', '1. ', '2. ', '3. ')):
+                        segment_type = "list"
+                    else:
+                        segment_type = "paragraph"
                     text_segments.append((segment, segment_type))
         elif file_extension in [".docx", ".doc"]:
             document = Document(file_path)
             for paragraph in document.paragraphs:
                 if paragraph.text.strip():
-                    # Check if paragraph style indicates a heading
                     style_name = paragraph.style.name.lower()
-                    segment_type = "heading" if "heading" in style_name else "paragraph"
+                    if "heading" in style_name:
+                        segment_type = "heading"
+                    elif "list" in style_name or paragraph.text.strip().startswith(('- ', '* ', '1. ', '2. ', '3. ')):
+                        segment_type = "list"
+                    elif "quote" in style_name:
+                        segment_type = "quote"
+                    else:
+                        segment_type = "paragraph"
                     text_segments.append((paragraph.text.strip(), segment_type))
         elif file_extension == ".pdf":
             with open(file_path, 'rb') as f:
@@ -72,8 +83,13 @@ def extract_text_from_file(file_path):
                         # Split page text by double newlines
                         page_segments = [s.strip() for s in page_text.split('\n\n') if s.strip()]
                         for segment in page_segments:
-                            # Heuristic: short segments (<50 chars) are headings
-                            segment_type = "heading" if len(segment) < 50 else "paragraph"
+                            # Heuristic: detect segment type
+                            if len(segment) < 50:
+                                segment_type = "heading"
+                            elif segment.startswith(('- ', '* ', '1. ', '2. ', '3. ')):
+                                segment_type = "list"
+                            else:
+                                segment_type = "paragraph"
                             text_segments.append((segment, segment_type))
         else:
             print(f"Error: Unsupported file type '{file_extension}'.")
@@ -131,14 +147,22 @@ def read_text_from_file(temp_file):
 def preprocess_text_for_tts(text):
     """
     Preprocesses text to fix pronunciation issues for the TTS engine.
-    Replaces problematic words with phonetic equivalents for better pronunciation.
+    Replaces problematic words with phonetic equivalents and adds pauses for clarity.
     """
     # Since text is already lowercase from small_letter_temp.txt, match lowercase
-    text = text.replace("testing", "test-ing")
-    text = text.replace("we", "wee")
-    text = text.replace("data", "dah-ta")
-    text = text.replace(" ai ", " eye ")  # Add spaces to avoid partial matches
-    text = text.replace("read", "red")
+    replacements = {
+        "testing": "test-ing,",
+        "we": "wee,",
+        "data": "dah-ta,",
+        " ai ": " A I ",
+        "read": "red,",
+        "algorithm": "al-go-rithm,",
+        "neural": "new-ral,",
+        "software": "soft-ware,",
+        "api": "A P I,"
+    }
+    for original, replacement in replacements.items():
+        text = text.replace(original, replacement)
     return text
 
 def set_voice_to_uk_male(engine):
@@ -148,7 +172,7 @@ def set_voice_to_uk_male(engine):
     voices = engine.getProperty('voices')
     found_voice = False
     for voice in voices:
-        # Check for UK locale and male gender.
+        # Check for UK locale and male gender
         if "en-gb" in voice.id.lower() and "male" in voice.id.lower():
             engine.setProperty('voice', voice.id)
             print(f"Using UK male voice: {voice.name}")
@@ -160,8 +184,13 @@ def set_voice_to_uk_male(engine):
 
 def convert_text_to_audio(text_segments, output_filename="output_audio.mp3"):
     """
-    Converts a list of (text, type) tuples into an audio file with different pauses.
-    Uses 1.5-second pause after headings, 1-second pause after paragraphs.
+    Converts a list of (text, type) tuples into an audio file with varied pauses.
+    Pause durations: 
+    - Before headings: 0.5 seconds
+    - After headings: 2 seconds
+    - After paragraphs: 1.5 seconds
+    - Before lists/quotes: 0.75 seconds
+    Speech rate: 150 wpm for headings, 170 wpm for others.
     """
     if not text_segments:
         print("No text to convert to audio.")
@@ -171,21 +200,24 @@ def convert_text_to_audio(text_segments, output_filename="output_audio.mp3"):
         engine = pyttsx3.init()
         set_voice_to_uk_male(engine)
         
-        # Adjusting the rate and volume for better quality
-        engine.setProperty('rate', 170)  # You can adjust this value
-        engine.setProperty('volume', 1.0)  # Maximum volume
-        
-        temp_wav_files = []
-        heading_pause_ms = 1500  # 1.5-second pause after headings
-        paragraph_pause_ms = 1000  # 1-second pause after paragraphs
-        heading_pause_audio = AudioSegment.silent(duration=heading_pause_ms)
-        paragraph_pause_audio = AudioSegment.silent(duration=paragraph_pause_ms)
+        # Define pause durations
+        heading_start_pause_ms = 500  # 0.5-second pause before headings
+        heading_end_pause_ms = 2000   # 2-second pause after headings
+        paragraph_end_pause_ms = 1500 # 1.5-second pause after paragraphs
+        list_quote_start_pause_ms = 750 # 0.75-second pause before lists/quotes
+        heading_start_pause_audio = AudioSegment.silent(duration=heading_start_pause_ms)
+        heading_end_pause_audio = AudioSegment.silent(duration=heading_end_pause_ms)
+        paragraph_end_pause_audio = AudioSegment.silent(duration=paragraph_end_pause_ms)
+        list_quote_start_pause_audio = AudioSegment.silent(duration=list_quote_start_pause_ms)
 
-        # Convert each segment to a WAV file with preprocessing
+        temp_wav_files = []
         for i, (text, segment_type) in enumerate(text_segments):
             if text.strip():  # Skip empty segments
                 # Preprocess text to fix pronunciation
                 processed_text = preprocess_text_for_tts(text)
+                # Set speech rate based on segment type
+                engine.setProperty('rate', 150 if segment_type == "heading" else 170)
+                engine.setProperty('volume', 1.0)  # Maximum volume
                 temp_wav_file = f"temp_segment_{i}.wav"
                 engine.save_to_file(processed_text, temp_wav_file)
                 engine.runAndWait()
@@ -194,10 +226,18 @@ def convert_text_to_audio(text_segments, output_filename="output_audio.mp3"):
         # Combine WAV files with appropriate pauses
         combined_audio = AudioSegment.empty()
         for i, (wav_file, segment_type) in enumerate(temp_wav_files):
+            # Add pause before segment (except for the first)
+            if i > 0:
+                if segment_type == "heading":
+                    combined_audio += heading_start_pause_audio
+                elif segment_type in ["list", "quote"]:
+                    combined_audio += list_quote_start_pause_audio
+            # Add the segment audio
             audio = AudioSegment.from_wav(wav_file)
             combined_audio += audio
-            if i < len(temp_wav_files) - 1:  # Add pause after all but the last segment
-                pause_audio = heading_pause_audio if segment_type == "heading" else paragraph_pause_audio
+            # Add pause after segment (except for the last)
+            if i < len(temp_wav_files) - 1:
+                pause_audio = heading_end_pause_audio if segment_type == "heading" else paragraph_end_pause_audio
                 combined_audio += pause_audio
         
         # Export combined audio to MP3
