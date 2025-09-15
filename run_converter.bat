@@ -4,6 +4,8 @@ rem -- Batch file to launch the file-to-audio-converter.py script --
 rem Change to the directory where this batch file is located
 cd /d "%~dp0"
 
+set PATH=%PATH%;C:\Users\sgins\Python312;C:\Users\sgins\Python312\Scripts;C:\ffmpeg\bin;C:\Program Files\Git\bin;C:\Windows\System32;
+
 echo Checking for Python...
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
