@@ -75,7 +75,7 @@ if not exist %VENV_DIR% (
 echo [*] Checking dependencies...
 call %VENV_DIR%\Scripts\activate
 python -m pip install --upgrade pip >nul
-pip install pymupdf pyttsx3 pytesseract Pillow >nul
+pip install -r requirements.txt >nul
 
 echo.
 set "CMD_ARG=%~1"
