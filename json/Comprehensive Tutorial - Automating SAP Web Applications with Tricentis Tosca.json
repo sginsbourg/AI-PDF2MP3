@@ -1,0 +1,267 @@
+{
+  "title": "Comprehensive Tutorial - Automating SAP Web Applications with Tricentis Tosca",
+  "source": "pdf\\Comprehensive Tutorial - Automating SAP Web Applications with Tricentis Tosca.pdf",
+  "total_segments": 52,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "Comprehensive Tutorial: Automating SAP Web Applications with Tricentis Tosca This tutorial provides a detailed, step-by-step guide to automating SAP Web Applications-including SAP Fiori, SAP S/4HANA Web UI, and SAP Web GUI-using Tricentis Tosca.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "To maximize educational value, each section includes a theoretical background, definitions of professional terms, and practical examples. 1.",
+      "page": 1
+    },
+    {
+      "type": "sub_heading",
+      "text": "Theoretical Foundation: Why Automate SAP Web Apps?",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Before diving into the technical setup, it is essential to understand the context of SAP automation.",
+      "page": 1
+    },
+    {
+      "type": "sub_heading",
+      "text": "Modern SAP environments are increasingly moving toward web-based interfaces like SAP Fiori.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike traditional desktop applications, web applications run in a browser and rely on HTML, CSS, and JavaScript.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Professional Terms: ●​ SAP Fiori: The modern user experience (UX) for SAP software, built on SAPUI5 technology, designed to be responsive and role-based. ●​ SAP S/4HANA: SAP's next-generation ERP suite that utilizes the Fiori interface for most user interactions. ●​ Regression Testing: A type of software testing that ensures that recent code changes have not adversely affected existing features.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Theoretical Background: Automation in SAP is critical because of the frequent updates and the complexity of business processes.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Manual testing of a single \"Order-to-Cash\" cycle across multiple web screens is time-consuming and prone to human error.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Automation ensures that these core business processes remain functional after every system update or patch. 2.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Prerequisites and Environment Setup To enable communication between the automation tool and the SAP system, specific configurations are required at the browser, server, and client levels.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "2.1 Browser Connectivity Term: Browser Extension - A small software module for customizing a web browser.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Tosca uses the Tricentis Automation Extension to \"see\" and interact with the Document Object Model (DOM) of the webpage. ●​ Action: Install the extension for Chrome, Edge, or Firefox. ●​ Example: Without this extension, Tosca would only see the browser window as a single image rather than identifying individual buttons like \"Save\" or \"Submit.\" 2.2 Server-Side Scripting (The \"Handshake\") Term: RZ11 - A transaction code in SAP used to maintain profile parameters.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Term: Scripting - The ability of an external program to control the SAP interface.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Theoretical Background: SAP has built-in security that prevents external tools from controlling its interface.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Enabling \"Scripting\" is essentially giving Tosca permission to \"drive\" the application. 1.​ Open transaction RZ11. 2.​ Set sapgui/user_scripting to TRUE. 3.​ Note: This is typically done in Development or Quality environments, never in Production, to prevent accidental automated actions on live data. 3.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "The Model-Based Test Automation (MBTA) Approach Tricentis Tosca is famous for its Model-Based approach, which differs significantly from Script-Based automation (like Selenium or UFT).",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Modules Technical blueprints of a screen.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of writing code to find a button, you \"scan\" the screen to create a Module.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "If the button moves, you update the Module once, and all tests are fixed.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Test Cases The business logic sequence.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "You build these by dragging Modules into a flow.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "This separates how to click",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "(Module) from what to do (Test Case).",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "TCPs Test Configuration Parameters.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Variables that store environment data (e.g., URL, Browser type) so you can run the same test in different environments.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Example: If you have a \"Login\" Module, you can use it in 100 different Test Cases.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "If the \"Login\" button's ID changes, you only update the Module once, not 100 scripts. 4.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Step-by-Step: Creating a Fiori Test Case Step 1: Scanning with XScan Term: XScan - The Tosca tool used to identify and capture UI elements from an application. 1.​ Open your Fiori Launchpad. 2.​ In Tosca, right-click a folder and select Scan > Application. 3.​ Select the browser window. 4.​ Identification Strategy: Fiori apps often have Dynamic IDs (IDs that change every time you refresh). ●​ Theory: If an ID is button_123 today and button_456 tomorrow, the test will fail. ●​ Solution: Use \"Identify by Anchor\" or \"Identify by Index\" in XScan to find the button based on its label or position instead of its volatile ID.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 2: Building the Logic 1.​ Create a new TestCase. 2.​ Drag the OpenUrl Standard Module to the start (to open the browser). 3.​ Drag your scanned Modules into the flow. 4.​ ActionModes: ●​ Input: To type data into a field. ●​ Verify: To check if a value is correct (e.g., checking if a \"Success\" message appears). ●​ Buffer: To \"copy\" a value (like an Order Number) to use later in the test.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Advanced Techniques: Tables and Synchronization 5.1 Handling SAP Tables Term: GridControl - A complex table structure used in SAP web apps.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Theory: Tables are difficult because the data is dynamic.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "You might need to find a row where the \"Material\" is \"Steel\" and then click \"Delete\" in that specific row. ●​ Example: In Tosca, you use the syntax $1 for the first row or [Material==Steel] to find a specific row dynamically. 5.2 Synchronization Term: Steering - The process of Tosca interacting with the application.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Theory: Web apps can be slow.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "If Tosca tries to click a button before the page finishes loading, the test fails.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "This is called a \"Race Condition.\" ●​ Solution: Use the WaitOn ActionMode.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "This tells Tosca: \"Don't move to the next step until this specific element is visible.\" 6.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Best Practices for Professional Automation 1.​ Modularization: Don't scan a whole page.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Scan the \"Header,\" \"Footer,\" and \"Body\" separately.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "This makes your Modules reusable across different apps. 2.​ Data-Driven Testing: Use TestCase-Design (TCD). ●​ Theory: Instead of creating 10 Test Cases for 10 different users, create 1 Test Case and link it to a data table.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Tosca will run the test 10 times automatically. 3.​ Naming Conventions: Always name Modules after the SAP Transaction or Fiori App name (e.g., VA01_CreateSalesOrder). 7.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Execution and Reporting Term: Scratchbook - A temporary area to run and debug tests.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Term: ExecutionList - A permanent log where formal test results are stored.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Theoretical Background: Testing isn't just about running the test; it's about the Audit Trail.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "In regulated industries (like Pharma or Finance), you must prove that the test passed.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "●​ ExecutionLists provide a history of every run, including screenshots of failures, which is essential for compliance and debugging.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Final Note: For large-scale S/4HANA projects, use Tricentis SAP Accelerators.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "These are pre-built \"Lego blocks\" for standard SAP processes that allow you to start testing on Day 1 instead of building everything from scratch.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "References: [1] Tricentis. (2026).",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Tosca Commander User Manual. https://docs.tricentis.com [2] SAP. (2025).",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Fiori Design Guidelines. https://experience.sap.com/fiori-design/ [3] Merito. (2025).",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "SAP Automation Best Practices. https://www.merito.com/resources/blogs/how-to-start-sap-automation-with-tricentis-tosca-a-com plete-guide",
+      "page": 5
+    }
+  ]
+}
