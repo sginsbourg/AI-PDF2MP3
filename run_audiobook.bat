@@ -1,4 +1,5 @@
 @echo off
+CLS
 pushd "%~dp0"
 setlocal enabledelayedexpansion
 SET VENV_DIR=venv
