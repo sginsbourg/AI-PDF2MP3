@@ -36,6 +36,7 @@ def step1_get_pdf_path(path_arg=None):
 def step2_validate_and_read_pdf(pdf_path):
     """
     2. validatate that the pdf exists and read it.
+    If no text is found, attempt OCR.
     """
     if not pdf_path or not os.path.exists(pdf_path):
         raise FileNotFoundError(f"PDF file not found: {pdf_path}")
@@ -50,11 +51,48 @@ def step2_validate_and_read_pdf(pdf_path):
             text_content.append(text)
     
     if not text_content:
-        # Check if it's potentially a scanned PDF
+        print("[!] No text layer found. Checking for images to perform OCR...")
         has_images = any(len(page.get_images()) > 0 for page in doc)
+        
         if has_images:
-            raise ValueError("This PDF appears to be a SCANNED IMAGE (no text layer). OCR is required to process this file.")
-        raise ValueError("The PDF contains no extractable text.")
+            print("[*] Scanned PDF detected. Initiating OCR (Tesseract required)...")
+            try:
+                import pytesseract
+                from PIL import Image
+                import io
+                
+                # Robust Tesseract path discovery
+                tess_paths = [
+                    r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+                    r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+                    os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Tesseract-OCR\tesseract.exe")
+                ]
+                for p in tess_paths:
+                    if os.path.exists(p):
+                        pytesseract.pytesseract.tesseract_cmd = p
+                        break
+                
+                for i, page in enumerate(doc):
+                    print(f"  [OCR] Processing page {i+1}/{len(doc)}...")
+                    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2)) # Higher DPI for better OCR
+                    img_data = pix.tobytes("png")
+                    img = Image.open(io.BytesIO(img_data))
+                    page_text = pytesseract.image_to_string(img)
+                    if page_text.strip():
+                        text_content.append(page_text)
+                
+                if not text_content:
+                    raise ValueError("OCR yielded no text content.")
+                
+                print("[+] OCR successful.")
+            except ImportError:
+                raise ImportError("pytesseract or Pillow not installed. Please run 'pip install pytesseract Pillow'.")
+            except Exception as e:
+                if "tesseract is not installed" in str(e).lower() or "not found" in str(e).lower():
+                    raise RuntimeError("Tesseract OCR engine not found. Please install Tesseract-OCR on your system.")
+                raise e
+        else:
+            raise ValueError("The PDF contains no extractable text and no images for OCR.")
     
     return text_content
 

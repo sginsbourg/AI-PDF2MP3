@@ -58,6 +58,7 @@ git add .
 set "SYNC_MSG=Auto-sync from PDF2MP3 Pipeline: %DATE% %TIME%"
 git commit -m "!SYNC_MSG!"
 echo [+] Pushing to GitHub...
+git pull origin main --rebase
 git push origin main
 
 echo [+] Pushing to GitLab mirror...
@@ -74,7 +75,7 @@ if not exist %VENV_DIR% (
 echo [*] Checking dependencies...
 call %VENV_DIR%\Scripts\activate
 python -m pip install --upgrade pip >nul
-pip install pymupdf pyttsx3 >nul
+pip install pymupdf pyttsx3 pytesseract Pillow >nul
 
 echo.
 set "CMD_ARG=%~1"
