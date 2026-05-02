@@ -47,7 +47,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM Ensure GitLab remote exists
-git remote | findstr /X "gitlab" >nul
+git remote get-url gitlab >nul 2>&1
 if %ERRORLEVEL% NEQ 0 (
     echo [+] Adding GitLab mirror remote...
     git remote add gitlab https://gitlab.com/sginsbourg/AI-PDF2MP3.git
