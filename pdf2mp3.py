@@ -61,16 +61,25 @@ def step2_validate_and_read_pdf(pdf_path):
                 from PIL import Image
                 import io
                 
+                import shutil
+
                 # Robust Tesseract path discovery
                 tess_paths = [
                     r"C:\Program Files\Tesseract-OCR\tesseract.exe",
                     r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
-                    os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Tesseract-OCR\tesseract.exe")
+                    os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Tesseract-OCR\tesseract.exe"),
+                    os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Programs\Tesseract-OCR\tesseract.exe")
                 ]
-                for p in tess_paths:
-                    if os.path.exists(p):
-                        pytesseract.pytesseract.tesseract_cmd = p
-                        break
+                
+                # First check if it's in the system PATH
+                tesseract_in_path = shutil.which("tesseract")
+                if tesseract_in_path:
+                    pytesseract.pytesseract.tesseract_cmd = tesseract_in_path
+                else:
+                    for p in tess_paths:
+                        if os.path.exists(p):
+                            pytesseract.pytesseract.tesseract_cmd = p
+                            break
                 
                 for i, page in enumerate(doc):
                     print(f"  [OCR] Processing page {i+1}/{len(doc)}...")
@@ -89,7 +98,7 @@ def step2_validate_and_read_pdf(pdf_path):
                 raise ImportError("pytesseract or Pillow not installed. Please run 'pip install pytesseract Pillow'.")
             except Exception as e:
                 if "tesseract is not installed" in str(e).lower() or "not found" in str(e).lower():
-                    raise RuntimeError("Tesseract OCR engine not found. Please install Tesseract-OCR on your system.")
+                    raise RuntimeError("Tesseract OCR engine not found! Please download and install it from https://github.com/UB-Mannheim/tesseract/wiki (or run 'winget install UB-Mannheim.TesseractOCR').")
                 raise e
         else:
             raise ValueError("The PDF contains no extractable text and no images for OCR.")
