@@ -62,6 +62,7 @@ git pull origin main --rebase
 git push origin main
 
 echo [+] Pushing to GitLab mirror...
+git pull gitlab main --rebase
 git push gitlab main
 
 echo [+] Synchronization Complete.
