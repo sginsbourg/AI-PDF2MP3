@@ -21,13 +21,54 @@ except ImportError:
 if colorama_available:
     init(autoreset=True)
 
+import shutil
+import subprocess
+
 # Set paths for Tesseract, Poppler, and output directory
-TESSERACT_PATH = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+tess_paths = [
+    r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+    r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+    os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Tesseract-OCR\tesseract.exe"),
+    os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Programs\Tesseract-OCR\tesseract.exe")
+]
+
+def find_tesseract():
+    tess_in_path = shutil.which("tesseract")
+    if tess_in_path:
+        return tess_in_path
+    for p in tess_paths:
+        if os.path.exists(p):
+            return p
+    return None
+
+TESSERACT_PATH = find_tesseract()
+
+if not TESSERACT_PATH:
+    if colorama_available:
+        print(f"{Fore.YELLOW}[*] Tesseract not found. Attempting automatic installation via winget...{Style.RESET_ALL}")
+    else:
+        print("[*] Tesseract not found. Attempting automatic installation via winget...")
+    try:
+        subprocess.run(
+            ["winget", "install", "UB-Mannheim.TesseractOCR", "--accept-package-agreements", "--accept-source-agreements", "--silent"],
+            check=True
+        )
+        if colorama_available:
+            print(f"{Fore.GREEN}[+] Tesseract OCR installed successfully.{Style.RESET_ALL}")
+        else:
+            print("[+] Tesseract OCR installed successfully.")
+        TESSERACT_PATH = find_tesseract()
+    except Exception as e:
+        if colorama_available:
+            print(f"{Fore.RED}[!] Auto-installation failed: {e}{Style.RESET_ALL}")
+        else:
+            print(f"[!] Auto-installation failed: {e}")
+
 POPPLER_PATH = r"C:\Program Files\poppler\bin"
 AUDIO_BOOKS_DIR = r"C:\Users\sgins\Downloads\AI-Generated-Audio-Books"
 
 # Configure Tesseract path
-if os.path.exists(TESSERACT_PATH):
+if TESSERACT_PATH and os.path.exists(TESSERACT_PATH):
     if colorama_available:
         print(f"{Fore.GREEN}✓ Tesseract found at {TESSERACT_PATH}{Style.RESET_ALL}")
     else:
@@ -35,9 +76,10 @@ if os.path.exists(TESSERACT_PATH):
     pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 else:
     if colorama_available:
-        print(f"{Fore.RED}✗ Tesseract not found at {TESSERACT_PATH}. Ensure it is installed.{Style.RESET_ALL}")
+        print(f"{Fore.RED}✗ Tesseract not found. Ensure it is installed.{Style.RESET_ALL}")
     else:
-        print(f"Tesseract not found at {TESSERACT_PATH}. Ensure it is installed.")
+        print("Tesseract not found. Ensure it is installed.")
+
 
 def select_pdf_file():
     """Select a PDF file using a dialog."""

@@ -71,15 +71,33 @@ def step2_validate_and_read_pdf(pdf_path):
                     os.path.join(os.environ.get("USERPROFILE", ""), r"AppData\Local\Programs\Tesseract-OCR\tesseract.exe")
                 ]
                 
-                # First check if it's in the system PATH
-                tesseract_in_path = shutil.which("tesseract")
-                if tesseract_in_path:
-                    pytesseract.pytesseract.tesseract_cmd = tesseract_in_path
-                else:
+                def find_tesseract():
+                    tess_in_path = shutil.which("tesseract")
+                    if tess_in_path:
+                        return tess_in_path
                     for p in tess_paths:
                         if os.path.exists(p):
-                            pytesseract.pytesseract.tesseract_cmd = p
-                            break
+                            return p
+                    return None
+
+                tesseract_cmd_path = find_tesseract()
+
+                if not tesseract_cmd_path:
+                    print("[*] Tesseract OCR not found. Attempting to install automatically via winget...")
+                    try:
+                        subprocess.run(
+                            ["winget", "install", "UB-Mannheim.TesseractOCR", "--accept-package-agreements", "--accept-source-agreements", "--silent"],
+                            check=True
+                        )
+                        print("[+] Tesseract OCR installed successfully. Re-checking paths...")
+                        tesseract_cmd_path = find_tesseract()
+                    except Exception as e:
+                        print(f"[!] Auto-installation failed: {e}")
+
+                if tesseract_cmd_path:
+                    pytesseract.pytesseract.tesseract_cmd = tesseract_cmd_path
+                else:
+                    raise RuntimeError("Tesseract OCR engine not found! Please download and install it from https://github.com/UB-Mannheim/tesseract/wiki (or run 'winget install UB-Mannheim.TesseractOCR').")
                 
                 for i, page in enumerate(doc):
                     print(f"  [OCR] Processing page {i+1}/{len(doc)}...")
