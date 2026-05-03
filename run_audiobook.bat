@@ -76,7 +76,15 @@ if not exist %VENV_DIR% (
 echo [*] Checking dependencies...
 call %VENV_DIR%\Scripts\activate
 python -m pip install --upgrade pip >nul
+if !ERRORLEVEL! NEQ 0 (
+    echo [!] Failed to upgrade pip.
+    exit /b !ERRORLEVEL!
+)
 pip install -r requirements.txt >nul
+if !ERRORLEVEL! NEQ 0 (
+    echo [!] Failed to install requirements.
+    exit /b !ERRORLEVEL!
+)
 
 echo.
 set "CMD_ARG=%~1"
@@ -95,6 +103,10 @@ if "%TARGET_PDF%"=="" (
 :single_file
 set "FILE_BASE=%~n1"
 call :check_and_process "%TARGET_PDF%" "!FILE_BASE!"
+if !ERRORLEVEL! NEQ 0 (
+    echo [!] Processing failed. Stopping.
+    exit /b !ERRORLEVEL!
+)
 echo.
 echo [*] Operation Completed.
 timeout /t 5
@@ -108,6 +120,10 @@ for %%F in (pdf\*.pdf) do (
     set "FILE_PATH=%%F"
     set "FILE_BASE=%%~nF"
     call :check_and_process "%%F" "!FILE_BASE!"
+    if !ERRORLEVEL! NEQ 0 (
+        echo [!] Batch processing stopped due to an error.
+        goto :EOF
+    )
 )
 echo.
 echo [*] Bulk Operation Completed.
@@ -134,4 +150,5 @@ goto :EOF
 :do_process
 echo [+] Generating Audiobook ^& JSON: "!P_BASE!"
 %VENV_DIR%\Scripts\python.exe %PYTHON_APP% "!P_PATH!"
+if !ERRORLEVEL! NEQ 0 exit /b !ERRORLEVEL!
 goto :EOF
