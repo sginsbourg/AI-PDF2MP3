@@ -76,7 +76,7 @@ call git commit -m "%%SYNC_MSG%%"
 git push origin main
 
 :: Check if gitlab remote exists before pushing
-git remote | findstr /X "gitlab" >nul
+git remote get-url gitlab >nul 2>&1
 if %ERRORLEVEL% NEQ 0 (
     echo [+] Configuring GitLab remote...
     git remote add gitlab "https://sginsbourg%%40gmail.com:Xx11gd12@gitlab.com/sginsbourg/pdf2mp3.git"
