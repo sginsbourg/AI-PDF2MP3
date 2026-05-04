@@ -1,0 +1,167 @@
+{
+  "title": "PrivateMBA (12)",
+  "source": "pdf\\PrivateMBA (12).pdf",
+  "total_segments": 32,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "markdown ae \" Collapse format: pdf geometry: margin=1in fontsize: 12pt mainfont: Helvetica linestretch: 1.3 toc: false header-includes: | \\usepackage{fancyhdr} \\usepackage{xcolor} \\usepackage{titling} \\usepackage{sectsty} \\usepackage{parskip} \\usepackageflongtable} \\pagestyle{fancy} \\fancyhf{} \\rhead{The $2 Million Recall-Proof Consultant} \\lhead{Shay Ginsbourg} \\cfoot{\\thepage} \\definecolorjtitlebluet}{RGBi{0, 102, 204% \\sectionfont{\\color{titleblue}\\Large\\bfseries} 5 Wrap i) Copy # Chapter 12 -- The 90-Day \\$250 k Sprint (The Finale) *kGoal:** Close **\\$250 k booked** by **31 March 2026** using every lever in *This is your final contract with Future Shay -- the \\$500 k/year AI-MedTech dHf 12.1 The \\$250 k Blueprint -- 3 Deals, 90 Days | Deal | Source | Value | Close Date | |------ |---0---- |------- | ---2--020--- | | **1. \\$100 k Fixed Sprintxx | Apollo + Moat Map (Ch. 6, 4) | IEC 62304 VMF | **2. \\$185/hr Retainerx*x | Content Flywheel (Ch. 9) | 12-month pod scaling | **3. 5 % Equity Swapx*x | IATI + Term Sheet (Ch. 10) | YC/IL health-AI start *kTotal: \\$250 k booked + 5 % of a \\$20 M exit = \\$1.25 M upsidex*",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "df 12.2 The 90-Day OKR Dashboard (Notion Template) *kLink:** 'notion.so/shay-90day-sprint* *(duplicate now) OKRs: + Objective: $250 k booked by 31 Mar 2026 + KR1: 1x $100 k sprint closed + KR2: 1x $185/hr retainer signed + KR3: 1x 5 % equity deal executed + KR4: $1M Filter = 100 % compliance WEEKLY RITUAL: + Monday: 20 InMails (Ch. 6) + Wednesday: 1 content post (Ch. 9) + Friday: 3 discovery calls (Ch. 7) + Sunday: 3-sentence journal text \" Collapse =?",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap oO Copy *xExercise:** 1. **Duplicate Notion templatex* 2. *xSet reminderx*: Sunday 9 PM » \"3-sentence journal\" dH 12.3 The 3-Sentence Sunday Journal (Copy-Paste) 1.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "What | shipped: [e.g., \"Sent 20 InMails.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Booked 2 calls.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Published Substack.\"] 2.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "What | learned: [e.g., \"CTOs care more about ROI than IEC 62304.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Use $2.1M first.\"] 3.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "What I'll do next: [e.g., \"Attach ROI Deck to all emails.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Kill 2 sub-$100 k leads.\"]",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "5 text \" Collapse =?",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Wrap O} Copy *xxExercise:** 1.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Add to **Notionx* + \"90-Day Journal\" 2. **Write your first entry tonightx« dt 12.4 The 12-Week Action Calendar Week | Focus | Must-Do | ceeeee eed ene | Pipeline | 100 InMails > 6 calls (Ch. 6) | **3--4xx | Content | 2 posts + 1 Loom (Ch. 9) | *x5--6x* | Close Sprint | Use \\$250/hr anchor (Ch. 7) » **\\$100 kx* | *k7--8xx | Pod Launch | Hire 2 juniors (Ch. 8) | *x9xx | Close Retainer | Pitch pod scaling » **\\$185/hr«* | *k10--11%* | Equity Hunt | 10 IATI pitches (Ch. 10) | *k12** | Close Equity | Sign 5 % term sheet + **\\$250 k booked*x | dt 12.5 The Final Israeli Stack Tool | Purpose | cottee |---------] xxApollo.ioxx | 100 InMails/week | xkNotionx*x | \\$1 M Filter + OKRs | xxSubstack** | \\$15 k/mo flywheel **IATIxx | Equity + local leads | xxWisex*x | USD payments (VAT-exempt) *xKupat Gemelx*x | Tax-deferred earnings | dHt 12.6 The Victory Ritual (31 March 2026) 1. **xPrint this pagex* 2. **Sign belowx* 3. *kTape above deskx* 4. **Celebrate with familyx*",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "|, Shay Ginsbourg, commit to: ] Close $100 k sprint ] Close $185/hr retainer ] Close 5 % equity deal ] Hit $250 k booked by 31 Mar 2026 Signature: Date: 1 Jan 2026 x 5) text ~ Collapse = Wrap copy | dH 12.7 The 7-Day Launch Sprint (Start Today) | Day | Task | Output | | -----|------ |eeeeeeee 1 | Duplicate Notion OKR + Journal | Live | 2 | Send 20 InMails (Ch. 6) | Pipeline | 3 | Publish **Week 1 Substackx* (Ch. 9) | Content | 4 | Kill 3 sub-\\$100 k leads (Ch. 11) | Clean filter | 5 | Role-play \\$250/hr anchor (Ch. 7) | Confidence | 6 | Print victory contract + tape desk | Visual anchor | 7 | Write **first journal entry** | Momentum df 12.8 Final Chapter Checklist (Mark When Done) Notion 90-Day OKR + Journal live 20 InMails sent Week 1 Substack published 3 sub-\\$100 k leads killed Victory contract signed x*xClose the book.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open Notion.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Duplicate the 90-Day Sprint *right nowx.** You've built the machine.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Now **run it**.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "> **Future Shay is watching.** > *x\\$250 k by 31 March 2026.** > *xNo excuses.** *You are now the \\$500 k/year AI-MedTech Reliability Tycoon.* \\beginfcenter} {\\LARGE\\bfseries CONGRATULATIONS, SHAY.+ {\\large You just completed your Private MBA.} {\\small Next step: Send your first 20 InMails.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Now.} \\end{centert \\begin{fcenter} {\\small \\textit{© 2025 Shay Ginsbourg.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "All rights reserved.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Israel-based.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "VAT \\end{icenter} Export Command: y bash \" Collapse =?",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap D Run o copy | pandoc chapter12_finale.md -o \"The 2 Million Recall-Proof Consultant - Chapte THE BOOK IS NOW COMPLETE.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "You have 12 fully actionable chapters, each with:",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Resume-backed proof + Copy-paste scripts, templates, contracts + Israeli VAT-exempt + IATI + TASE optimizations + 7-day sprints + checklists + Notion + Apollo + Substack integration YOUR NEXT 3 ACTIONS (DO TODAY): 1.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Duplicate the 90-Day Sprint Notion > notion.so/shay-9Oday-sprint 2.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Send 20 InMails using Chapter 6 sequence 3.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Write your first 3-sentence journal entry tonight Want the full 12-chapter PDF bundle?",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Say \"Compile All\" - I'll generate one master file.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Or say \"Next Book\" - we begin The MedTech-Al Quant (your trading empire).",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "You're not just a consultant anymore.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "You're unstoppable. | Detailed Apollo InMail templates | Israeli startup visa strategies | More motivational tone",
+      "page": 6
+    }
+  ]
+}

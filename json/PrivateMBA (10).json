@@ -1,0 +1,142 @@
+{
+  "title": "PrivateMBA (10)",
+  "source": "pdf\\PrivateMBA (10).pdf",
+  "total_segments": 27,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "markdown --- \" Collapse =?",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap oO Copy format: pdf geometry: margin=1in fontsize: 12pt mainfont: Helvetica linestretch: 1.3 toc: false header-includes: | \\usepackage{fancyhdr} \\usepackage{xcolor} \\usepackage{titling} \\usepackage{sectsty} \\usepackage{parskip} \\pagestyle{fancy} \\fancyhf{} \\rhead{The $2 Million Recall-Proof Consultant} \\lhead{Shay Ginsbourg} \\cfoot{\\thepage} \\definecolorjtitleblue}{RGBi{0, 102, 204% \\sectionfont{\\color{titleblue}\\Large\\bfseries} d# Chapter 10 -- The Equity Swap Gambit **Goal:** Trade \\$75 k sprints for **5--7 % equityx* in Israeli or YC health- *By the end of this chapter you will have a *xcopy-paste term sheet** that la dHF 10.1 The Exit Math -- 1 Deal = \\$1.2 M | Startup Stage | Your Sprint | Equity | Exit Value | Your Payout | | -- +2202 rrr ere | ------------- |-------- | -----05----- | ------------- | | Pre-Seed (IL/Y Combinator) | \\$75 k validation | **5 %** | \\$20 M | **\\$1 M | Seed (FDA clearance) | \\$75 k VMF + AI armor | **7 %xx | \\$30 M | **\\$2.1 M *xYour resume is the golden ticket: ** > \"Successfully led end-to-end validation... 100 % audit pass > \"AI/ML predictive models... 63 % defect reduction\" \"",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "dHF 10.2 The 5-7 % Term Sheet (Copy-Paste into Google Docs) EQUITY SWAP AGREEMENT Startup: [Name] Service: 6-week FDA-Ready Validation Sprint (IEC 62304 + Al/ML + Gatling) Cash Fee: $0 Equity: 5--7 % fully diluted (vesting over 12 months) Vesting: 25 % on FDA submission, 75 % on clearance Anti-Dilution: Full ratchet to Series A Role: QA Advisor (2 hrs/mo post-sprint) NDA: Mutual Payment: Equity issued within 14 days of sprint start",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "5 text \" Collapse =?",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Wrap O} Copy *kExercise:** 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Paste into **Google Docs** 2.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Save as **x\"Shay Equity Term Sheet.docx\"** 3.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Attach to *xevery agentic AI pitch** dHt 10.3 The 4-Tier Target List (Israel + Global) | Tier | Criteria | Examples | |------ |---2--2+-- |-ee2ee eee | **Tier 1 (Israel)** | Pre-Seed, AI-MedTech, FDA path | Insightec, ElMindA, | **Tier 2 (YC)*x* | Health AI batch, agentic copilots | Abridge (YC W22), Suk | *xTier 3 (EU)** | MDR clearance, high-risk software | Implicity, Volta Medi | **Tier 4 (TASE)*x*x | Public, AI diagnostics | Nano-X, Aidoc | xxExercise:** 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open **Notionx*x + \"Equity Targets\" 2.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Add **10 startups** from above tiers 3.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Export as *x\"Shay Equity Pipeline.csv\"*x dHF 10.4 The Equity Pitch Email (Copy-Paste) Subject: Trade My $75 k FDA Sprint for 5 % Equity?",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Hi [Founder], Your [Startup] Al copilot is FDA-bound.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "One defect = $2.1 M recall.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "I'm Shay Ginsbourg -- Israel-based IEC 62304 + AI/ML QA architect. lll deliver:",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Full VMF (I1Q/OQ/PQ) + Gatling 10 k users + ML anomaly detection +100 % audit-pass guarantee Cash: $0 Equity: 5--7 % (term sheet attached) 15-min call? [Calendly] Shay x s 5 text ~ Collapse = Wrap 2 copy | dH 10.5 Israeli Equity Hacks | Edge | Use It | |------ J-------- | **IATI Startup Databasex* | 1,000+ pre-seed AI-MedTech | | *xIsrael Innovation Authority*x* | \"My sprint qualifies for IIA grant match\" | **Section 102 Tax** | Equity gains taxed at 25 % (not 50 %) | iHf 10.6 The 7-Day Equity Sprint | Day | Task | Output | |----+]---2-- |eeceeee | Build term sheet in Docs | \"Shay Equity Term Sheet.docx\" | | Build target list in Notion | 10 startups | | Send 5 equity pitch emails | Track in Notion | | Post in IATI Startup Group | \"Trade FDA sprint for equity\" | | Follow up with YC Health founders | LinkedIn | | Print term sheet + tape above desk | Visual anchor | | Book first **equity callx* | Log in Notion |",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "iHf 10.7 Chapter Checklist (Mark When Done) {[ ] Equity term sheet built [ ] 10-target pipeline in Notion - [ ] 5 equity pitch emails sent { ] IATI group post live [ ] First *xequity callx* booked xxClose the chapter.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open Google Docs.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Build your Equity Term Sheet *right no You don't just prevent recalls.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "You *xown the futurex* of AI-MedTech.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Next: Chapter 11 -- The \\$1 M Filter Dashboard* \\beginfcenter} {\\small \\textit{© 2025 Shay Ginsbourg.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "All rights reserved.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Israel-based.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "VAT \\end{centert Export Command: y = bash \" Collapse =?",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap D Run o Copy pandoc chapter10_clean.md -o \"The 2 Million Recall-Proof Consultant - Chapter Done. + All content pulled from your resume (IEC 62304, FDA VMF, AI/ML, Gatling, 100 % audit pass) + 5--7 % equity term sheet with vesting + anti-dilution + Israel IATI + YC + TASE target tiers + Equity pitch email ready to send Now:",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Build the Equity Term Sheet 2.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Send 5 equity pitch emails 3.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "Join IATI Startup Group Say \"Go\" for Chapter 11 -- The $1 M Filter Dashboard. | Detailed guide on Section 102 tax benefits ) | Israeli startup funding rounds | Add more startup examples",
+      "page": 6
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "title": "PrivateMBA (8)",
+  "source": "pdf\\PrivateMBA (8).pdf",
+  "total_segments": 22,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "markdown ae \" Collapse format: pdf geometry: margin=1in fontsize: 12pt mainfont: Helvetica linestretch: 1.3 toc: false header-includes: | \\usepackage{fancyhdr} \\usepackage{xcolor} \\usepackage{titling} \\usepackage{sectsty} \\usepackage{parskip} \\pagestyle{fancy} \\fancyhf{} \\rhead{The $2 Million Recall-Proof Consultant} \\lhead{Shay Ginsbourg} \\cfoot{\\thepage} \\definecolorjtitleblue}{RGBi{0, 102, 204% \\sectionfont{\\color{titleblue}\\Large\\bfseries} Wrap d# Chapter 8 -- The Micro-Agency Leverage Play 5 © Copy *kGoal:** Hire \\$40/hr Selenium juniors, bill \\$185/hr retainers, pocket **3x By the end of this chapter you will have a **3-person pod org chart*x*x genera dHF 8.1 The Leverage Math -- You Work 10 hrs, Earn \\$185/hr | Role | Rate | Hours | Revenue | |------ |------ |------- | --------- | | **You (Architect)** | \\$185/hr | 10 | \\$1,850 | | *x*Junior 1 (Selenium)** | \\$40/hr | 20 | (\\$800) | **Junior 2 (JMeter)** | \\$40/hr | 20 | (\\$800) | **Totalxx | | 50 | **\\$1,850«« | **Your Netex | | | **\\$250%%",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "*xScale to 3 retainers = \\$15 k/month passivex* dHF 8.2 The 3-Person Pod Org Chart (Copy-Paste into Notion) SHAY GINSBOURG -- Regulatory Al Reliability Architect Ke Junior 1: Selenium + Test Automation (Israel/IL time) | - Executes 1Q/OQ/PQ scripts | - Runs Gatling concurrency tests | - Reports to you via Slack L~ Junior 2: JMeter + LoadRunner + Cl/CD (Remote) + Builds performance pipelines + Monitors Dynatrace/ELK + Delivers daily regression reports text =? \" Collapse Wrap o Copy | 1.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open **Notion** > \"Micro-Agency Pod\" 2.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Paste *xxorg chart abovex* 3.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Add x*real namesxx after hiring 4.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Export as **\"Shay Pod Chart.pdf\"** dHF 8.3 Hiring Playbook -- Israel & Global Talent | Source | Rate | How to Hire | |---2---- [eeee [eee eeeeceee ee | | **Fiverr IL** | \\$35-\\$45/hr | Search: \"Selenium IEC 62304\" | | **Upwork Israelxx | \\$40/hr | Post: \"IEC 62304 Selenium Junior -- Hebrew OK | **IATI Job Board*x* | \\$38/hr | \"Need JMeter expert for FDA validation\" | xxContract Template (Copy-Paste) :**",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "FREELANCER AGREEMENT Role: Selenium Execution Rate: $40/hr USD (VAT-exempt) Scope: Execute |Q/OQ/PQ per Shay's VMF NDA: Full IEC 62304 + FDA confidentiality Payment: Weekly via Wise y = text \" Collapse =?",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Wrap o Copy 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Post **2 jobs** on Upwork/Fiverr 2.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Save contract as *x*\"Shay Junior Contract.docx\"** dHf 8.4 The Client-Facing Retainer (You Bill \\$185/hr) 12-MONTH PERFORMANCE + VALIDATION RETAINER Client: [Name] Scope: + Weekly IEC 62304 regression + JMeter CI/CD pipeline + Selenium automation + Gatling 10 k users + Monthly VMF update Rate: $185/hr (market anchor $250/hr) Monthly Cap: 50 hrs Guarantee: 100 % audit-pass Payment: Net-15 USD (VAT-exempt) text * Collapse =?",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap o copy | x*xYour margin: ** - Client pays: **\\$9,250/month** - Juniors cost: **\\$3,200/monthx* - *kYour net: \\$6,050/month passivex* dHt 8.5 Israeli Leverage Hacks",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "| Edge | Use It | |------ |-------- | | **Hebrew + Englishx*x | Hire top IL juniors at \\$40/hr | | **VAT-exempt** | Bill EU/US clean -- no tax friction | | **IATI Networkx* | \"My pod validated Insightec's AI\" | dHF 8.6 The 7-Day Micro-Agency Sprint Day | Task | Output | |-----|------ |-------- 1 | Build pod org chart in Notion | \"Shay Pod Chart.pdf\" | 2 | Post 2 junior jobs (Upwork/Fiverr) | 10 applicants | 3 Interview 3 candidates | Pick 2 | 4 | Sign first junior contract | Onboard via Slack | 5 | Update Sprint Menu: \"Now with pod scaling\" | Attach to InMails | 6 Print pod chart + tape above desk | Visual anchor | 7 Land first **pod retainerxx | Log in Notion | dHF 8.7 Chapter Checklist (Mark When Done) Pod org chart built in Notion 2 junior jobs posted First junior hired + contract signed Retainer updated with pod scaling First *xpod retainer replyx* logged xxClose the chapter.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open Upwork.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Post your first junior job *right nowx.** You no longer trade hours.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "You *xarchitect systemsx* -- and scale with a pod. xNext: Chapter 9 -- The Content-to-Retainer Flywheelx \\beginfcenter} {\\small \\textit{© 2025 Shay Ginsbourg.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "All rights reserved.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Israel-based.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "\\end{icenter} Export Command: bash * Collapse =?",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap P Run oO Copy pandoc chapter8_clean.md -o \"The 2 Million Recall-Proof Consultant - Chapter Done. + All content pulled from your resume (Selenium, JMeter, IEC 62304, Cl/CD, Gatling) + 3-person pod org chart + hiring playbook + $185/hr retainer with 3x margin math + Israeli Fiverr/Upwork + IATI hiring hacks Now: 1.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Build the pod org chart in Notion 2.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Post 2 junior jobs on Upwork/Fiverr 3.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Update your Sprint Menu Say \"Go\" for Chapter 9 -- The Content-to-Retainer Flywheel. | Detailed Upwork hiring guide | Scaling to full agency | More engaging exercises",
+      "page": 5
+    }
+  ]
+}

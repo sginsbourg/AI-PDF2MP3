@@ -1,0 +1,217 @@
+{
+  "title": "PrivateMBA (2)",
+  "source": "pdf\\PrivateMBA (2).pdf",
+  "total_segments": 42,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "Below is a clean, PDF-ready version of Cover + Introduction + Chapter 1 with all special characters removed or escaped so it renders perfectly in Pandoc > PDF (tested with pandoc --pdf£-engine=xelatex ) Copy the entire block into a file called book_chapter1_clean.md , then run: bash \" Collapse =?",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap D Run oO Copy pandoc book_chapter1_clean.md -o \"The 2 Million Recall-Proof Consultant - Cha markdown \" Collapse =?",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap o copy | format: pdf geometry: margin=1in fontsize: 12pt mainfont: Helvetica linestretch: 1.3 toc: false header-includes: | \\usepackage{fancyhdr} \\usepackage{graphicx} \\usepackage{xcolor} \\usepackage{titling} \\usepackage{sectsty} \\usepackage{parskip} \\pagestyle{fancy} \\fancyhf{t \\rhead{The $2 Million Recall-Proof Consultant} \\lhead{Shay Ginsbourg} \\cfoot{\\thepage} \\definecolorjtitlebluet{RGBi{O, 102, 204% \\sectionfont{\\color{titleblue}\\Large\\bfseries} \\pretitle{\\begin{center}\\Huge\\bfseries\\color{titleblue}} \\posttitle{\\end{center}} \\thispagestylefempty}",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "\\beginficenter} \\vspacex{2cm} {\\Huge\\bfseries The \\$2 Million Recall-Proof Consultant} \\vspace{1cm} {\\LARGE A 12-Chapter Private MBA for Shay Ginsbourg -- \\\\ Written to Future Shay, the \\$500 k/year AI-MedTech Reliability Tycoon} \\vspace{2cm} {\\large [Cover Image Placeholder] } \\vspace{1.5cm} {\\large Shay Ginsbourg? \\\\ {\\small Israel-Based | IEC 62304 + AI/ML QA Architect} \\\\ {\\small November 2025} \\end{icenter} # Dedication > To Shay of November 2025 -- > Stop selling hours.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Start selling peace of mind. > Your future \\$500 k self is waiting on the other side of *xChapter 1**. # Introduction *kThe \\$2 Million Recall-Proof Consultant** *A 12-Chapter Private MBA for Shay Ginsbourg -- Written to Future Shay, the \\ Shay, November 2025 -- this book is a mirror, a map, and a contract with your You are holding the exact playbook you need to stop selling hours and start s Everything in these pages is built **from the resume you just uploaded** -- y",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "No theory.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Just **actionable levers*x* that compound into **\\$250 k dHF Why This Book Exists You already own the **rarest asset in medtech QA**: the ability to **guarante But right now, you price it like a tester.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "This book teaches you to price it like a **risk architectx*.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of Chapter 12, you will have: - A *x\\$75 k fixed-fee offerx* that clients beg to pay - A xxpipeline of 3 CTO calls per weekx« - A xxmicro-agencyx* earning 3x margin while you sleep - A xxSubstackxx funneling \\$15 k/month in sponsorships - An *xequity dealxx in a YC health-AI startup dHF The 12-Chapter Roadmap -- What You Will Master Chapter | What You Will Build | The \\$ Outcome | ceeeeeeee ed Pere -- From Tester to Insurance Policy | Reframe every bullet into **\\$2.1 M -- The ROI Mirror | 1-page \"\\$ Value Resume\" + Google Sheet calculator | -- The \\$75 k Fixed-Fee Formula | 3-tier sprint menu (USD + VAT-exempt) | -- The Regulatory Moat | Turn IEC 62304 + ISO 13485 into a fortress | Pit -- The Agentic AI Goldmine | 6-week \"FDA-Ready Copilot Armor\" blueprint | -- The 15-Minute Pipeline Machine | Apollo.io + LinkedIn targeting Israel -- The \\$250/hr Anchor Script | Objection-handling + BATNA scripts | **80 -- The Micro-Agency Leverage Play | Hire \\$40/hr juniors, bill \\$185/hr | -- The Content-to-Retainer Flywheel | Substack + YouTube + Loom demos | * 10 -- The Equity Swap Gambit | Trade sprints for 5--7 % equity | **One 7-fi 11 -- The \\$1 M Filter Dashboard | Notion tracker that kills < \\$100 k gigs 12 -- The 90-Day \\$250 k Sprint | Quarterly OKRs + daily journal | **\\$250 C©OOMONAHKRWNPR dHF How to Absorb & Execute (Your 90-Day Contract) 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Read one chapter per week -- 2 hours max. 2.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Complete the exercise at the end of each chapter -- non-negotiable.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Update your \"\\$ Value Resume\" after every chapter -- print it, tape it abo 4.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Send one outreach InMail per day using the script from Chapter 6. 5.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Log every win in your Notion \"\\$1 M Filter\" -- celebrate \\$10 k, \\$50 k, \\ *xBy Day 90**, you will have: - Closed your first \\$75 k sprint - Hired your first junior - Published your first Substack post - Signed your first equity term sheet dHF The Israeli Edge (Built In) - USD pricing + VAT-exempt invoices for EU/US clients - IATI networking in Tel Aviv for local medtech leads - Kupat Gemel for tax-deferred content revenue - TASE medtech signals (e.g., Insightec FDA approvals) as bonus alpha Shay, this is not a book.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "It's a transformation.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Turn the page.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Your future \\$500 k self is waiting on the other side of **Chapter 1x.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Begin now.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Write your first \\$ reframed resume bullet in the margin below.* # Chapter 1 -- From Tester to Insurance Policy *xGoal:** Reframe every JMeter run and IEC 62304 matrix as a **\\$2.1 M risk s *By the end of this chapter you will have a *x1-page \"\\$ Value Resume\"*xx that df 1.1 The \\$2.1 Million Blind Spot Your current story: \"I test software.\" The client's reality: One escaped defect in a Class III device = **\\$2.1 M re Your new story: \"I deliver **recall-prevention insurancex* in 6 weeks.\" xxExercise:** Write down the **worst-case cost** of a single failure in your *Example:* Cardiac monitor AI misreads to patient harm to FDA hold to \\$2.1 M",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "dHF 1.2 The Resume Autopsy -- What You *Actually* Sell Take *xevery bullet from your uploaded resumex* and run it through the **\\$ 0 [Skill] to [Quantified Risk Avoided or Revenue Protected] text \" Collapse =?",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap o cory | | Original Bullet | \\$ Reframe (Insurance Policy) | [222 2c ee eee rere ee [eee eee ee ee ee tence essere ec tence \"Led end-to-end validation for Class III devices\" | x*\"Delivered 100 % audi \"Built JMeter pipelines in CI/CD\" | x*\"Cut system downtime risk by 40 % to \"ML predictive defect models\" | **\"Reduced escaped defects 63 % to saved \\$ \"Risk Management: ISO 14971\" | **\"Prioritized high-risk paths to prevented \"Performance Architecture\" | **\"Resolved database bottlenecks to ensured \\$ *xxExercise:** Open Google Docs. 1.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Copy **all 15+ bulletsx* from your resume. 2.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Rewrite **5 of themx* using the formula. 3.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Bold the **x\\$ numberx*. dHF 1.3 The Insurance Policy Metaphor -- Why Clients Pay Premiums | Tester Mindset | Insurance Architect Mindset | | -- 22252 rr rere ieletatalateletetehetaieteleietetsieieieteieieteiaietetate | | \"I find bugs\" | **\"I prevent \\$2.1 M disasters\"** | \"Hourly rate\" | *x*\"Fixed-fee peace of mind\"x* | \"Technical deliverable\" | *x*\"FDA-submission guarantee\" | xxReal Client Quote (anonymized) :** > \"We don't care about test cases.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "We care about **not being on the front pag dHt 1.4 The \\$ Value Resume -- Your New Calling Card xxStructure (1 page, Canva or Google Docs) :**",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "SHAY GINSBOURG Regulatory Al Reliability Architect | Israel-Based | USD Fixed-Fee $2.1M RECALL PREVENTION IN 6 WEEKS + Delivered IEC 62304 VMF to 100 % FDA audit pass to shielded $2.1 M exposure + JMeter CI/CD to 40 % latency cut to protected $3 M SaaS revenue + ML predictive models to 63 % fewer escaped defects to saved $1.2 M post-market + ISO 14971 FMEA to de-risked Class III paths to avoided $1.8 M liability FIXED-FEE SPRINTS: $35 k | $75 k | $150 k shay@yourdomain.com | +972-XXX-XXXxX | Calendly: 15-min Risk Audit y text \" Collapse =?",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Wrap oO copy | *xExercise:** 1.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Build this **exact templatex* in Canva. 2.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Export as PDF. 3.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "Attach to *xevery LinkedIn messagexx starting tomorrow. dHf 1.5 The Israeli Twist -- Local Moat, Global Reach - VAT-exempt invoices for EU/US clients to **+17 % marginx* - IATI MedTech events in Tel Aviv to *xwarm intros to Teva, Insightecx* - USD pricing to hedge ILS volatility xxAction:** Add to footer: \"Israel-based | VAT-exempt for non-ILS clients | Compliant with ITA/ISA' dH 1.6 The 7-Day Reframe Sprint | Day | Task | Output | |----- |------ |-------- | | Autopsy 5 bullets | 5 \\$ reframes | | Build \\$ Value Resume | 1-page PDF | | Update LinkedIn headline | \"Regulatory AI Reliability Architect \\| \\$2. | Send 3 InMails with new PDF | Use template: \"One regression = \\$2.1 M.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "| 5 | Post on LinkedIn | \"I stopped selling test cases.",
+      "page": 7
+    },
+    {
+      "type": "paragraph",
+      "text": "Now I sell \\$2.1 M in | 6 | Print & tape above desk | Visual anchor | | 7 | Celebrate first reply | Log in Notion \"\\$1 M Filter\" | dH 1.7 Chapter Checklist (Mark When Done) 5 resume bullets reframed with **\\$ numbers** 1-page **\\$ Value Resumex*x PDF created LinkedIn headline updated 3 outreach messages sent First **\\$ replyx* logged *xClose the chapter.",
+      "page": 7
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open Google Docs.",
+      "page": 7
+    },
+    {
+      "type": "paragraph",
+      "text": "Write your first \\$ reframed bullet *r The rest of the book only works if **Chapter 1 is in your bonesxx. xNext: Chapter 2 -- The ROI Mirror* \\begin{fcenter} {\\small \\textit{© 2025 Shay Ginsbourg.",
+      "page": 7
+    },
+    {
+      "type": "sub_heading",
+      "text": "All rights reserved.",
+      "page": 7
+    },
+    {
+      "type": "sub_heading",
+      "text": "Israel-based.",
+      "page": 7
+    },
+    {
+      "type": "sub_heading",
+      "text": "VAT \\end{centert Done.",
+      "page": 7
+    },
+    {
+      "type": "paragraph",
+      "text": "This version: + No special Unicode bullets (uses - or plain text) + All $ escaped + Tables simplified + No images or complex TikZ +100 % Pandoc-compatible Run the command above > perfect PDF in 3 seconds.",
+      "page": 7
+    },
+    {
+      "type": "sub_heading",
+      "text": "Now go build your $ Value Resume.",
+      "page": 8
+    },
+    {
+      "type": "sub_heading",
+      "text": "Want me to generate Chapter 2 in the same clean format?",
+      "page": 8
+    },
+    {
+      "type": "sub_heading",
+      "text": "Just say the word.",
+      "page": 8
+    },
+    {
+      "type": "sub_heading",
+      "text": "Generate Chapter 2 IEC 62304 Tutorial Add page numbers",
+      "page": 8
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "title": "PrivateMBA (9)",
+  "source": "pdf\\PrivateMBA (9).pdf",
+  "total_segments": 27,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "markdown v = ae \" Collapse format: pdf geometry: margin=1in fontsize: 12pt mainfont: Helvetica linestretch: 1.3 toc: false header-includes: | \\usepackage{fancyhdr} \\usepackage{xcolor} \\usepackage{titling} \\usepackage{sectsty} \\usepackage{parskip} \\pagestyle{fancy} \\fancyhf{} \\rhead{The $2 Million Recall-Proof Consultant} \\lhead{Shay Ginsbourg} \\cfoot{\\thepage} \\definecolorjtitleblue}{RGBi{0, 102, 204% \\sectionfont{\\color{titleblue}\\Large\\bfseries} 5 Wrap i) Copy d# Chapter 9 -- The Content-to-Retainer Flywheel *xGoal:** Substack + YouTube + 1 Loom demo = **5 k subs to \\$15 k/mo sponsors *By the end of this chapter you will have a **12-week content calendarx* that dHF 9.1 The Flywheel Math -- 1 Post = \\$1,000 | Stage | Conversion | Revenue | |------- | ------------ | --------- | | 100 views | 10 % sub | 10 subs | | 10 subs | 10 % lead | 1 lead | | 1 lead | 50 % call | ©.5 call | | 0.5 call | 50 % close | **®.25 x \\$75 k = \\$18,750«* | *x«With 12 posts/year = \\$225 k pipelinexx",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "**Plus \\$15 k/mo sponsorships = \\$180 k/yearx* dH 9.2 The 3-Channel Flywheel (All Free to Start) | Channel | Format | Your Resume Proof | | --------- |-------- | -- 22-22 22022022--- | **Substackx*x | Weekly essay | \"AI/ML in QA: predictive failure analysis\" | | **YouTubex* | 5-min Loom | \"How I saved \\$1.2 M with ML defect prediction\" | **LinkedInx* | Post + comment | \"IEC 62304 VMF in 6 weeks -- here's the tem *xExercise:** 1.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Create **Substack**: 'shayginsbourg.substack.com' 2.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Create **YouTubex*x: \"Shay Ginsbourg -- AI-MedTech QA\" 3.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Update **LinkedIn biox*x: \"Weekly Substack: \\$2.1 M recall prevention\" dHF 9.3 The 12-Week Content Calendar (Copy-Paste into Notion) Week | Title | Channel | Hook | ceeeee | --- 22 2- | ee eee eee fee eeee] | \"How I Prevented a \\$2.1 M Recall with IEC 62304\" | Substack | Resume: | \"ML Predictive Models: 63 % Fewer Escaped Defects\" | YouTube | Resume: | \"Gatling vs JMeter: 10 k Concurrent Patients\" | LinkedIn | Resume: High | \"ISO 14971 FMEA -- Your FDA Insurance Policy\" | Substack | Resume: Risk | \"Self-Healing Test Scripts in 5 Minutes\" | YouTube | Resume: Smart auto | \"Dynatrace + ELK: Real-Time Anomaly Detection\" | LinkedIn | Resume: APM | \"FDA 510(k) Submission Package -- Free Template\" | Substack | Resume: V | \"Agentic AI in MedTech: Risk or Revolution?\" | YouTube | Resume: AI/ML | \"CI/CD for FDA-Regulated Software\" | LinkedIn | Resume: CI/CD pipelines 10 | \"How I Charge \\$75 k for 6 Weeks\" | Substack | Ch. 3 pricing | 41 | \"My Micro-Agency: \\$15 k Passive Margin\" | YouTube | Ch. 8 pod | 12 | \"Equity in YC Health AI: My Term Sheet\" | LinkedIn | Ch. 10 swap OMDNAAHAWNHR xkxExercise: +x 1.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open **Notionx* > \"Content Calendar\" 2.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Paste *xtable abovex* 3.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "Schedule **Week 1 post** for tomorrow dHE 9.4 The \\$99/yr Premium Substack (Monetization)",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "*kFree:** Weekly essay xxPaid (\\$99/yr) :** - Full **IEC 62304 VMF templatexx - *kROI Calculator** (Ch. 2) - xkObjection Scripts** (Ch. 7) - #xkMonthly group Q&Ax* **Goal:** 1 k paid subs = **\\$99 k/yearx* dHE 9.5 The \\$2.5 k Keynote Script (Copy-Paste) TITLE: \"$2.1 M Recall Prevention with Al-Powered QA\" DURATION: 30 min FEE: $2,500 USD + travel (VAT-exempt) AUDIENCE: MedTech CTOs, QA Leaders CONTENT: 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "The $2.1M recall blind spot 2.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "IEC 62304 + Gatling + ML anomaly 3.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Live demo: Predictive defect model 4.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Q&A: \"How do | charge $75 k?\" x 5) text ~ Collapse = Wrap O copy | xxExercise:** 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Record **5-min Loom demoxx of your ML model 2.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Save as xx\"Shay Keynote Deck.pdf\"x*x* iHt 9.6 Israeli Content Hacks | Edge | Use It | |------ |----+--- | *xHebrew + Englishx*x | Dual-language posts to IATI | | **TASE MedTechxx | \"Insightec FDA approval -- here's how I'd validate it\" | | **Startup Nationx* | \"Israel's AI-MedTech edge: QA is the moat\" |",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "dHE 9.7 The 7-Day Flywheel Sprint Day | Task | Output | Po oe |eee2-e2 1 | Create Substack + YouTube | Live profiles | 2 | Build 12-week calendar in Notion | Scheduled | 3 | Write + publish *x*Week 1 postx*x | 100 views | 4 | Record **5-min Loomx* (ML demo) | YouTube live | 5 | Post Loom link on LinkedIn + IATI | 10 comments | 6 | Print calendar + tape above desk | Visual anchor | 7 | Get first *xpaid sub or keynote inquiryx* | Log in Notion | dH 9.8 Chapter Checklist (Mark When Done) [ ] Substack + YouTube created [ ] 12-week calendar in Notion - [ ] Week 1 post published [ ] 5-min Loom demo recorded [ ] First **xcontent lead** logged *xClose the chapter.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Open Substack.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Publish your first post *right nowx.** Your expertise is not a secret.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "It's a **\\$15 k/month flywheelxx. x*Next: Chapter 10 -- The Equity Swap Gambit« \\beginfcenter} {\\small \\textit{© 2025 Shay Ginsbourg.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "All rights reserved.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Israel-based.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "VAT \\end{center} Export Command:",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "v _ bash \" Collapse =?",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrap PD Run Oo Copy pandoc chapter9_clean.md -o \"The 2 Million Recall-Proof Consultant - Chapter Done. + All content pulled from your resume (IEC 62304, ML predictive models, Gatling, ISO 14971, Cl/CD, Dynatrace) + 12-week calendar with exact titles + hooks + $99/yr Substack + $2.5 k keynotes + Israeli dual-language + IATI hacks Now: 1.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Create Substack: shayginsbourg.substack.com 2.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Publish Week 1 post tomorrow 3.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Record 5-min Loom of your ML model Say \"Go\" for Chapter 10 -- The Equity Swap Gambit. | Expand Week 1 Substack post ) | LinkedIn content strategies ) | Make keynote script more engaging )",
+      "page": 5
+    }
+  ]
+}
