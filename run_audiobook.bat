@@ -139,11 +139,11 @@ set "JSON_TARGET=json\!P_BASE!.json"
 if not exist "mp3" mkdir "mp3"
 if not exist "json" mkdir "json"
 
-REM Skip only if BOTH MP3 and JSON exist AND MP3 is newer than PDF source
+REM Skip only if BOTH MP3 and JSON exist AND MP3 is newer than BOTH the PDF source AND the script itself
 set "PS_CMD=%PS_EXE% -NoProfile -Command"
-%PS_CMD% "$m=$env:MP3_TARGET; $j=$env:JSON_TARGET; $src=$env:P_PATH; if (-not (Test-Path $m) -or -not (Test-Path $j)) { exit 1 }; if ((Get-Item $m).LastWriteTime -lt (Get-Item $src).LastWriteTime) { exit 1 }; exit 0"
+%PS_CMD% "$m=$env:MP3_TARGET; $j=$env:JSON_TARGET; $src=$env:P_PATH; $app=$env:PYTHON_APP; if (-not (Test-Path $m) -or -not (Test-Path $j)) { exit 1 }; if ((Get-Item $m).LastWriteTime -lt (Get-Item $src).LastWriteTime) { exit 1 }; if ((Get-Item $m).LastWriteTime -lt (Get-Item $app).LastWriteTime) { exit 1 }; exit 0"
 
-if %ERRORLEVEL% NEQ 0 goto :do_process
+if !ERRORLEVEL! NEQ 0 goto :do_process
 echo [.] Skipping "!P_BASE!" (Audiobook is up to date)
 goto :EOF
 

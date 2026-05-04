@@ -11,7 +11,8 @@ import subprocess
 import tkinter as tk
 from tkinter import filedialog
 import fitz  # PyMuPDF
-import pyttsx3
+import asyncio
+import edge_tts
 
 # --- 7-Step Procedural Structure ---
 
@@ -239,31 +240,20 @@ def step3_generate_structured_json(text_pages, pdf_path):
 
 def step4_ai_record_audiobook(json_data, temp_dir):
     """
-    4. ai "record" the audiobook according to the Json structure.
-    Using a subprocess approach for each segment to prevent pyttsx3 hangs on Windows.
+    4. ai "record" the audiobook using Edge-TTS (High-Quality Neural Voices)
     """
-    print("[*] Recording segments using AI Voice Engine (Subprocess Isolation)...")
+    print("[*] Recording segments using Edge-TTS Neural Voice Engine...")
     
     audio_segments = []
     total = len(json_data["elements"])
+    voice_id = "en-US-ChristopherNeural" # High-quality male voice
     
-    # We'll determine the voice once to use in subprocesses
-    try:
-        engine = pyttsx3.init()
-        voices = engine.getProperty("voices")
-        voice_id = None
-        for voice in voices:
-            if ("male" in voice.name.lower() or "david" in voice.name.lower()) and "en" in voice.id.lower():
-                voice_id = voice.id
-                break
-        if not voice_id and voices:
-            voice_id = voices[0].id
-        del engine # Close temporary engine
-    except:
-        voice_id = None
+    async def generate_segment(text, filename):
+        communicate = edge_tts.Communicate(text, voice_id)
+        await communicate.save(filename)
 
     for i, element in enumerate(json_data["elements"]):
-        chunk_file = os.path.abspath(os.path.join(temp_dir, f"segment_{i:04d}.wav"))
+        chunk_file = os.path.abspath(os.path.join(temp_dir, f"segment_{i:04d}.mp3"))
         text_to_speak = element["text"]
         
         # Basic sanitation already done in step3, but minor fixes here
@@ -274,34 +264,12 @@ def step4_ai_record_audiobook(json_data, temp_dir):
         snippet = text_to_speak[:50] + "..." if len(text_to_speak) > 50 else text_to_speak
         print(f"  [PID:{pid}][Recording {i+1}/{total}] {element['type']} ({len(text_to_speak)} chars): \"{snippet}\"")
         
-        # Create a tiny script to process this segment
-        script_lines = [
-            "import pyttsx3",
-            "import sys",
-            "engine = pyttsx3.init()",
-            f"engine.setProperty('rate', 150)", # Professional standard speed
-        ]
-        if voice_id:
-            script_lines.append(f"engine.setProperty('voice', {repr(voice_id)})")
-        
-        script_lines.append(f"engine.save_to_file({repr(text_to_speak)}, {repr(chunk_file)})")
-        script_lines.append("engine.runAndWait()")
-        
-        script_path = os.path.join(temp_dir, f"gen_{i}.py")
-        with open(script_path, "w", encoding="utf-8") as f:
-            f.write("\n".join(script_lines))
-        
         try:
-            # Run the synthesis in a separate process
-            subprocess.run([sys.executable, script_path], check=True, capture_output=True)
+            asyncio.run(generate_segment(text_to_speak, chunk_file))
             audio_segments.append(chunk_file)
-        except subprocess.CalledProcessError as e:
-            print(f"  [!] Error during segment {i+1}: {e.stderr.decode() if e.stderr else e}")
-            # Optional retry logic could be added here
-        finally:
-            if os.path.exists(script_path):
-                os.remove(script_path)
-    
+        except Exception as e:
+            print(f"  [!] Error during segment {i+1}: {e}")
+            
     return audio_segments
 
 def step5_merge_with_pauses(audio_segments, json_data, output_path):
@@ -314,15 +282,15 @@ def step5_merge_with_pauses(audio_segments, json_data, output_path):
         return False
 
     with tempfile.TemporaryDirectory() as merge_temp:
-        # Create silent files (Parameters must match TTS engine output: 22050Hz, Mono)
-        tail_sh = os.path.join(merge_temp, "tail.wav")     # 0.5s
-        pause_sh = os.path.join(merge_temp, "short.wav")   # 1.2s
-        pause_md = os.path.join(merge_temp, "medium.wav")  # 1.8s
-        pause_lg = os.path.join(merge_temp, "long.wav")    # 3.0s
+        # Create silent files (Parameters must match TTS engine output: 24000Hz, Mono)
+        tail_sh = os.path.join(merge_temp, "tail.mp3")     # 0.5s
+        pause_sh = os.path.join(merge_temp, "short.mp3")   # 1.2s
+        pause_md = os.path.join(merge_temp, "medium.mp3")  # 1.8s
+        pause_lg = os.path.join(merge_temp, "long.mp3")    # 3.0s
         
         def create_silence(path, duration):
-            # Match SAPI5 output parameters 22050Hz Mono
-            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r=22050:cl=mono", "-t", str(duration), "-ar", "22050", "-ac", "1", path]
+            # Match Edge-TTS output parameters 24000Hz Mono
+            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r=24000:cl=mono", "-t", str(duration), "-acodec", "libmp3lame", "-ar", "24000", "-ac", "1", "-q:a", "2", path]
             subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
 
         create_silence(tail_sh, 0.5)

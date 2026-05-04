@@ -2,3 +2,4 @@ pymupdf
 pyttsx3
 pytesseract
 Pillow
+edge-tts
