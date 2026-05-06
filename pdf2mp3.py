@@ -260,6 +260,12 @@ def step4_ai_record_audiobook(json_data, temp_dir):
         text_to_speak = text_to_speak.replace(" vs. ", " versus ")
         text_to_speak = re.sub(r'([a-z])([A-Z])', r'\1 \2', text_to_speak)
         
+        # Force a distinct pause and downward inflection for headers and titles
+        if element["type"] in ["chapter_title", "section_headline", "sub_heading"]:
+            text_to_speak = text_to_speak.strip()
+            if not text_to_speak.endswith(".."):
+                text_to_speak += " .."
+        
         pid = os.getpid()
         snippet = text_to_speak[:50] + "..." if len(text_to_speak) > 50 else text_to_speak
         print(f"  [PID:{pid}][Recording {i+1}/{total}] {element['type']} ({len(text_to_speak)} chars): \"{snippet}\"")
