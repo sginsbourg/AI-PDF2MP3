@@ -73,6 +73,7 @@ git add .
 set "SYNC_MSG=Auto-sync from SD mirror script: %DATE% %TIME%"
 :: Using late expansion syntax or call to safely execute message
 call git commit -m "%%SYNC_MSG%%"
+git pull origin main --rebase
 git push origin main
 
 :: Check if gitlab remote exists before pushing
@@ -82,6 +83,7 @@ if %ERRORLEVEL% NEQ 0 (
     git remote add gitlab "https://sginsbourg%%40gmail.com:Xx11gd12@gitlab.com/sginsbourg/pdf2mp3.git"
 )
 echo [+] Syncing to GitLab mirror...
+git pull gitlab main --rebase
 git push gitlab main
 echo [+] Cloud Synchronization Complete.
 
