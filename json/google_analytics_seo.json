@@ -1,0 +1,212 @@
+{
+  "title": "google_analytics_seo",
+  "source": "pdf\\google_analytics_seo.pdf",
+  "total_segments": 41,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "& SEO Guide & SEO Guide",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Table Of Table Of Contents Contents About Us Section SEO Section Connecting SEO with Our Core Services Introduction",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "About Us About Us TechnoWin IT Infra Pvt Ltd is a forward-thinking software development and IT solutions company committed to empowering businesses through cutting-edge digital innovation.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "We specialize in crafting custom technology solutions that align with the unique goals of our clients, helping them scale, streamline, and succeed in an ever-evolving digital landscape.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "From innovative app development to robust IT infrastructure management, we deliver high-quality, user-centric technology backed by strategic thinking and industry expertise.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Our solutions are designed not just to function-but to perform, inspire, and grow with your business.",
+      "page": 3
+    },
+    {
+      "type": "chapter_title",
+      "text": "What Sets Us Apart ?",
+      "page": 4
+    },
+    {
+      "type": "chapter_title",
+      "text": "What Sets Us Apart ?",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "A passionate team of developers, designers, and IT experts .",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Strong focus on user experience and functionality .",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Proven track record across industries and platforms .",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Agile development process with transparent communication .",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "End-to-end support-from concept to deployment and beyond .",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Our Services Include Our Services Include Web Development App Development Cloud Computing Value Added Services Office digitalization DMS & Workflow",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Introduction Introduction SEO Google Analytics is a free web analytics tool by Google that helps you track and analyze how visitors interact with your website.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "It provides insights into user behavior, traffic sources, page performance, and conversion tracking-enabling you to make informed decisions to improve your site's effectiveness.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "SEO stands for Search Engine Optimization , it's the process of optimizing your website to improve its visibility on search engines like Google.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "By using the right keywords, quality content, and technical best practices, SEO helps increase organic (non-paid) traffic and ensures your site ranks higher in search results.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "Benefits of Google Analytics Benefits of Google Analytics Google Analytics is a powerful web analytics tool developed by Google that helps you understand how users interact with your website.",
+      "page": 7
+    },
+    {
+      "type": "paragraph",
+      "text": "It tracks visitor behavior, such as: Where they come from (traffic sources) Which pages they view How long they stay What actions they take (like clicks, form submissions, purchases) These insights help you: Measure marketing campaign performance Improve website content and user experience Track conversions and user journeys Make data-driven business decisions Google Analytics is now primarily based on Google Analytics 4 (GA4), the latest version, which uses event-based tracking and is designed for modern web and app data collection.",
+      "page": 7
+    },
+    {
+      "type": "paragraph",
+      "text": "How to Connect Google Analytics to Your Website (Using GA4) How to Connect Google Analytics to Your Website (Using GA4) Step 1 : Create a Google Analytics Account 1.Go to analytics.google.com 2.Sign in with your Google account. 3.Click \"Start Measuring\". 4.Fill in the Account Name and configure your account settings. 5.Click Next.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 2: Create a GA4 Property 1.Enter a Property Name (e.g., Your Website Name). 2.Set your reporting time zone and currency. 3.Click Next, select your industry category and business size. 4.Click Create and accept the terms.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 3: Set Up a Data Stream 1.Choose your platform: Web, iOS app, or Android app. 2. (For a website, select Web.) 3.Enter your website URL and a stream name. 4.Click Create Stream.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "You will now see a Measurement ID (e.g., G-XXXXXXX) Step 4: Add the Tracking Code to Your Website Option A: Add it Manually 1.Copy the Global Site Tag (gtag.js) code shown in the stream details. 2.Paste it inside the <head> tag of every page of your website.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Option B: Use Google Tag Manager (Recommended for Advanced Users) 1.Go to Google Tag Manager 2.Set up a new account and container for your website. 3.Add the GTM container code to your website. 4.In GTM, create a new tag for Google Analytics: GA4 Configuration. 5.Enter your Measurement ID and trigger it on All Pages. 6.Submit and publish the container.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "How to Connect Google Analytics to Your Website (Using GA4) How to Connect Google Analytics to Your Website (Using GA4) Step 5: Verify Tracking Go back to Google Analytics → Admin → Data Streams → Your Web Stream Open your website in a new tab.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "In Google Analytics, click \"Realtime\" on the left menu to see if your visit is being tracked.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 6: Set Up Conversions (Optional but Important) 1.Go to Admin > Events in Google Analytics. 2.Mark key events (like form submissions, purchases) as Conversions. 3.You can also create custom events using Google Tag Manager or directly in GA4. <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G- XXXXXXX\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXX'); </script>",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "What is SEO What is SEO & Why Why SEO Matters ?",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "SEO Matters ?",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "Search Engine Optimization (SEO) is the process of improving your website so it ranks higher in organic (non-paid) search results on search engines like Google.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "Good SEO means more visibility, more visitors, and more opportunities to convert those visitors into customers.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "Increases Organic Traffic (free clicks) Improves Search Engine Rankings Enhances User Experience Builds Credibility & Trust Drives Long-Term Results Types of SEO ✅ 1.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "On-Page SEO Optimizing content and elements directly on your website: Title tags & meta descriptions Headers (H1, H2, H3...) Image alt texts Internal linking Keyword-rich, high-quality content ✅ 2.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "Off-Page SEO Building credibility and authority outside your website: Backlinks (links from other websites) Social media signals Online reviews and mentions ✅ 3.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical SEO Improving the backend structure of your website: Mobile responsiveness Website speed Secure connection (HTTPS) XML sitemap and robots.txt file Proper URL structure and redirects",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "How to Check Your SEO Performance How to Check Your SEO Performance Step 1 : Use Google Search Console 1.Go to Google Search Console 2.Add and verify your website. 3.Explore key SEO data: Search Performance: Clicks, impressions, CTR, and keyword rankings Coverage: Indexed pages and errors Mobile Usability: Mobile-friendly issues Page Experience: Core Web Vitals and HTTPS Step 2: Use SEO Audit Tools Here are some free and paid tools to check SEO: Monitor & Improve Track keyword rankings and organic traffic regularly.",
+      "page": 11
+    },
+    {
+      "type": "sub_heading",
+      "text": "Use Google Analytics to measure time on site, bounce rates, and conversions.",
+      "page": 11
+    },
+    {
+      "type": "sub_heading",
+      "text": "Continuously optimize content and fix technical issues.",
+      "page": 11
+    },
+    {
+      "type": "sub_heading",
+      "text": "How to Check Your SEO Performance How to Check Your SEO Performance",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "Thankyou Thankyou Head Office : De-Elmas, 401, 4th Floor, Sonawala Cross Lane Pahadi Village, Goregaon (E), Mumbai, Maharashtra 400063 +91 - 7738019120 technowinitinfra@gmail.com https://technowinitinfra.com/ Software Office : Gala No. 5 , Udhog Bhavan , Sharma Industrial Estate, Walbhat Rd, Jay Prakash Nagar, Goregaon, Mumbai, Maharashtra 400063",
+      "page": 13
+    }
+  ]
+}
