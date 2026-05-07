@@ -109,6 +109,7 @@ if !ERRORLEVEL! NEQ 0 (
 )
 echo.
 echo [*] Operation Completed.
+call mirror_to_sd_D_and_G.bat
 timeout /t 5
 goto :EOF
 
@@ -127,6 +128,7 @@ for %%F in (pdf\*.pdf) do (
 )
 echo.
 echo [*] Bulk Operation Completed.
+call mirror_to_sd_D_and_G.bat
 timeout /t 5
 goto :EOF
 
