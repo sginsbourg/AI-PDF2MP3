@@ -1,0 +1,247 @@
+{
+  "title": "Goodbye_Load_Runner_and_JMeter",
+  "source": "pdf\\Goodbye_Load_Runner_and_JMeter.pdf",
+  "total_segments": 48,
+  "elements": [
+    {
+      "type": "paragraph",
+      "text": "1 Goodbye LoadRunner and JMeter Whitepaper by Shay Ginsbourg, M.Sc., former LoadRunner QA Manager, founder of Vectors.co.il and Ginsbourg.co.il May 2026 Abstract The software performance testing landscape is currently at a critical juncture.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "For decades, the industry was dominated by enterprise monoliths like LoadRunner, which entered a period of stagnation following HP's strategic pivot away from software development.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "This vacuum was largely filled by open-source tools like Apache JMeter, which, despite its versatility, remains tethered to a GUI-centric, XML-based architecture that creates significant friction in modern DevOps pipelines.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "As we move into 2026, the emergence of Agentic Engineering-where autonomous AI agents orchestrate, execute, and adapt testing strategies-demands a fundamental shift.",
+      "page": 1
+    },
+    {
+      "type": "sub_heading",
+      "text": "This whitepaper argues that the era of manual script maintenance is ending.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Organizations must move beyond the limitations of JMeter and embrace code-centric, AI-native tools that empower agents to manage risk coverage autonomously, marking the transition from traditional performance testing to Agentic Performance Intelligence. 1.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "Introduction: The Dawn of a New Era in Performance Engineering The year 2026 signifies a period of significant evolution in software development, with Artificial Intelligence (AI) increasingly influencing various stages of the lifecycle.",
+      "page": 1
+    },
+    {
+      "type": "sub_heading",
+      "text": "Performance engineering, crucial for ensuring application responsiveness, scalability, and stability, is also impacted.",
+      "page": 1
+    },
+    {
+      "type": "sub_heading",
+      "text": "Emerging concepts like \"vibe testing\"-where AI assists in interpreting natural",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "2 language for performance test intent-and \"agentic engineering,\" involving autonomous agents in observing, testing, and adapting systems, are gaining traction.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "In this evolving context, the selection of performance testing tools extends beyond basic feature comparison.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "It involves a strategic assessment of a tool's fundamental architecture and its amenability to integration within AI-augmented pipelines.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "This whitepaper provides a critical evaluation of the historical trajectory of load testing, the limitations of the JMeter era, and why the future belongs to agentic-based software testing tools. 2.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Retrospective: The Rise and Stagnation of Performance Monoliths To understand the current shift, one must look back at the history of performance testing.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "For nearly two decades, Mercury Interactive's LoadRunner was the undisputed gold standard.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "However, the trajectory of LoadRunner serves as a cautionary tale of enterprise stagnation.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Era Owner Status 1990s - 2006 Mercury Interactive Rapid innovation, established the \"Virtual User\" (Vuser) paradigm. 2006 - 2017 Hewlett-Packard (HP) Focus shifted to bundle sales and maintenance; active innovation slowed as HP pivoted toward services and cloud infrastructure. 2017 - 2023 Micro Focus LoadRunner was part of a \"software spin-merge\"; development became primarily maintenance-focused for legacy enterprise contracts.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "HP's acquisition of Mercury in 2006 for $4.5 billion initially seemed like a powerhouse move.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "However, as HP struggled with its internal identity, LoadRunner's development cycle lengthened, and its heavy, proprietary architecture became increasingly misaligned with the emerging Agile and DevOps movements.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "By the time HP divested its software assets to Micro Focus in 2017, the tool was widely viewed as a \"legacy monolith\"-powerful but too cumbersome for the high-velocity world of modern software delivery. 3.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "The JMeter Era: A Bridge That Has Reached Its Limit As LoadRunner became too expensive and rigid for many teams, Apache JMeter (born in 1998) emerged as the democratic alternative.",
+      "page": 2
+    },
+    {
+      "type": "sub_heading",
+      "text": "It offered a GUI-driven approach that allowed non-developers to create complex test plans.",
+      "page": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "For a decade, JMeter was the bridge between legacy enterprise testing and the open-source world.",
+      "page": 2
+    },
+    {
+      "type": "section_headline",
+      "text": "3 However, JMeter's core architecture is now its greatest liability.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Its reliance on a GUI-centric tree structure saved in verbose .jmx XML files makes it a \"black box\" for modern automation. \"JMeter was designed for a world where a human sits in front of a screen to build a test.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "In a world where an AI agent needs to generate, refactor, and execute tests in milliseconds, XML is a language of the past.\" The friction is most evident in CI/CD pipelines.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "XML diffs are nearly impossible for humans to read and difficult for AI to merge reliably.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Custom logic often requires \"hacks,\" such as embedding Groovy code inside XML blocks, which further complicates programmatic parsing and generation. 4.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "The Shifting Landscape: From Manual Configuration to Agentic Automation The evolving landscape, particularly with the emergence of AI-assisted and agentic engineering, suggests a growing need for tools that are inherently machine-operable.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "For AI agents to effectively generate, parse, and modify test plans programmatically, the underlying test definition needs to be code-based. 4.1.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Why Code-First (k6) is the Prerequisite for AI Tools like k6 (introduced in 2017) represent the \"Performance as Code\" movement.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "By using JavaScript (ES6), k6 aligns perfectly with how Large Language Models (LLMs) are trained. ● High Fidelity Generation: LLMs are extensively trained on JavaScript, enabling them to generate k6 scripts with near-perfect accuracy. ● Version Control: Tests are treated as first-class citizens in the codebase, allowing for seamless peer reviews and branching. ● Resource Efficiency: k6's Go-based runner is significantly more efficient than JMeter's JVM-based architecture, consuming up to 70% less memory while supporting 10x more virtual users per instance. 5.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "The Emerging Era of Agentic Pipelines In 2026, we are moving beyond \"AI-assisted\" (where AI helps a human) to \"Agentic\" (where the AI acts autonomously). 5.1.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "The Agentic Loop An AI agent in a modern performance pipeline doesn't just run a script; it manages a lifecycle: 1.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Observation: The agent monitors deployment events and real-time telemetry. 2.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Hypothesis: It identifies potential performance bottlenecks based on code changes.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Generation: It autonomously generates a k6 test targeting the specific risk area. 4.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Execution & Scaling: It scales the test via Kubernetes-native operators. 5.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Adaptation: It parses real-time metrics and mutates the test configuration mid-run to find the breaking point. 5.2.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "From Test Coverage to Risk Coverage Traditional testing focuses on \"covering\" every endpoint.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Agentic testing focuses on Risk Coverage.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of testing everything equally, intelligent agents focus effort where the business risk is highest, potentially reducing test execution time by 40% while improving quality outcomes. 6.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "Conclusion: Navigating the Future The choice between the legacy of JMeter and the future of Agentic tools is clear.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "While JMeter remains a viable tool for teams maintaining legacy systems with deep protocol needs (JDBC, LDAP, JMS), it is no longer the strategic choice for growth.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "The decline of LoadRunner under HP's stewardship proved that even the most powerful tools can become obsolete if they fail to adapt to developer workflows.",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "Today, JMeter faces a similar fate.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "For organizations building cloud-native architectures and exploring AI-augmented QA, the transition to code-first, agentic-native tools is not just an upgrade-it is a necessity for survival in the AI era.",
+      "page": 4
+    },
+    {
+      "type": "paragraph",
+      "text": "References 1. \"QA trends for 2026: AI, agents, and the future of testing.\" Tricentis, 2026. 2. \"JMeter vs k6: The Complete 2026 Comparison.\" Vervali, 2026. 3. \"The Evolution of Test Tools: Passing the Baton.\" Calleo Software, 2024. 4. \"K6 vs JMeter in 2026 -- Modern vs Legacy Performance Testing.\" QASkills, 2026. 5. \"HP to drop Mercury brand as deal closes.\" TechMonitor, 2006.",
+      "page": 4
+    }
+  ]
+}
