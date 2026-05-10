@@ -54,6 +54,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 echo [+] Executing Dual-Cloud Sync (GitHub + GitLab)...
+git config advice.skippedCherryPicks false
 git add .
 set "SYNC_MSG=Auto-sync from PDF2MP3 Pipeline: %DATE% %TIME%"
 git commit -m "!SYNC_MSG!"
