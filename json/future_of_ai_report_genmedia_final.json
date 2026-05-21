@@ -1,0 +1,2437 @@
+{
+  "title": "future_of_ai_report_genmedia_final",
+  "source": "pdf\\future_of_ai_report_genmedia_final.pdf",
+  "total_segments": 486,
+  "elements": [
+    {
+      "type": "sub_heading",
+      "text": "Future of AI Perspectives on generative media for startups.",
+      "page": 1
+    },
+    {
+      "type": "paragraph",
+      "text": "2 Table of contents Victor Riparbelli Co-Founder and CEO, Synthesia Joaquín Cuenca Abela Co-Founder and CEO, Freepik Grace Isford Partner, Lux Capital Jaclyn Konzelmann Director of Product Management, Google Labs Foreword Predictions about generative media Perspectives of industry leaders 03 04 07 Darian Shirazi Managing Partner, Gradient David Benjamin Team Lead, Creative Lab and Co-Founder, AI Futures Fund, Google Grace Wang Co-Founder and CMO, OpusClip Sami Ede Co-Founder and Senior ML Researcher, Leonardo.Ai Build with Google's generative media models 32",
+      "page": 2
+    },
+    {
+      "type": "section_headline",
+      "text": "3 Innovation has always been defined by the bet.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "That is, the courage to pursue an idea before the rest of the world sees its value.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "And in today's generative era, the window to prove value has narrowed significantly.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "We are witnessing an unprecedented compression of the \"idea-to-scale\" cycle.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "It is no longer enough to simply build; founders must now navigate a landscape where AI is the core, not just a wrapper.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "As we look toward the future of generative media and creative disciplines, the winners will be those who move beyond basic orchestration to create deep, specialized moats.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "To thrive, we must embed AI into the fabric of our workflows and focus on solving high-value, real-world problems.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "We are moving toward a world of \"vibe design,\" where you don't need to be a coder or a professional editor to bring a vision to life.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "If you can describe it, if you can feel it, you can build it.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "This shift democratizes creativity, allowing a solo entrepreneur to run a photoshoot for a global brand from their laptop, or a student to transform 60 research sources into a deep-dive audio conversation.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "Darren Mowry Vice President, Global Startups, Google This report provides a range of perspectives of the future possibilities of AI in creative disciplines, straight from founders that are redefining the space, investors that are betting on them, and Google experts building the foundational tools.",
+      "page": 3
+    },
+    {
+      "type": "paragraph",
+      "text": "As you read through these findings, you will see that the next wave of innovation belongs to those who prioritize scalability and differentiation from day one.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "I hope these perspectives inspire you to begin building what's next.",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "The 2026 opportunity",
+      "page": 3
+    },
+    {
+      "type": "sub_heading",
+      "text": "Predictions about generative media 4",
+      "page": 4
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're moving toward a post- keyboard world.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Traditional interfaces and form factors will disappear in favor of neural and brain- computer interfaces that intuit thoughts and extend the human mind.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Grace Isford Partner, Lux Capital Video will replace text.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "As the marginal cost of creating video content drops to zero, enterprises will embrace it over traditional formats like slides and docs.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Because humans prefer to consume visual content.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Victor Riparbelli Co-Founder and CEO, Synthesia Founders will become creative directors.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "But instead of stepping back, this shift will make them the most hands-on builders in history- multiplying their output by directing a fleet of agents to get things done.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Jaclyn Konzelmann Director of Product Management, Google Labs The film industry will flip to AI.",
+      "page": 5
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the next two to three years, AI-driven media production will overtake traditional methods economically, collecting more revenue than traditional films as the industry flips to this new way of creating.",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "Joaquín Cuenca Abela Co-Founder and CEO, Freepik Predictions 1 2 3 5",
+      "page": 5
+    },
+    {
+      "type": "sub_heading",
+      "text": "AI will soon generate haptics and spatial acoustics.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "AI is extremely good at learning, and it won't be long before it's creating spatial acoustics for 3D experiences.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "And, as tailored actuators become more readily available, it also won't be long before AI-generated haptics can also become part of a brand's toolkit.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Sami Ede Co-Founder and Senior ML Researcher, Leonardo.Ai Personalized videos will lead the way.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "The biggest shift for AI startups will be moving from 'novelty' to 'personalization.' The next generation of tools won't just generate generic video, they will precisely understand an individual's style and enhance their specific story.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Grace Wang Co-Founder and CMO, OpusClip Individual creators will dominate the media landscape.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Content creators will become more relevant than traditional media brands.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "These creators can research topics deeply, and deliver content to consumers in meaningful, personalized ways.",
+      "page": 6
+    },
+    {
+      "type": "sub_heading",
+      "text": "Darian Shirazi Managing Partner, Gradient Gamers will enter 'living' metaverses.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "Real-time generative AI will transform gaming into a responsive, 'living' metaverse that adapts its narrative and atmosphere to a player's unique interests.",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "David Benjamin Team Lead, Creative Lab and Co-Founder, AI Futures Fund, Google Predictions 1 2 3 6",
+      "page": 6
+    },
+    {
+      "type": "paragraph",
+      "text": "of industry leaders 7",
+      "page": 7
+    },
+    {
+      "type": "paragraph",
+      "text": "A new genre in video has arrived, and it's opening up a whole new world for builders.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "As AI-made videos become ubiquitous, work is transformed Are we witnessing the end of static content?",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "As builders continue to push the boundaries of what's possible with AI in video content creation, the idea of static content will take a backseat to just-in-time content generated just for you.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Similar to how EDM shook up the music industry, we're on the cusp of a revolution in video.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "And, just like drum machines and synthesizers didn't replace traditional music genres and real instruments, the arrival of AI- generated videos won't replace traditional media.",
+      "page": 8
+    },
+    {
+      "type": "sub_heading",
+      "text": "Instead, it creates opportunity.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "For startups wanting to play a part in this revolution, the key lies in thinking about what consumers want and need from content-whether they are at home on the couch or in the office at work.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Synthesia is the world's leading AI video platform for business, with visual communication and enterprise skill development products to help people work better.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Originally from Denmark, Victor co-founded the London-based company in 2017 after seeing the potential of computer vision to democratize media creation.",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "Recognized on the 2024 TIME100 AI list, he is a prominent voice in the global shift toward using generative media as a primary medium for business communication, skill development, and knowledge sharing.",
+      "page": 8
+    },
+    {
+      "type": "sub_heading",
+      "text": "Victor Riparbelli Co-Founder and CEO, Synthesia Victor Riparbelli 1 2 3 8",
+      "page": 8
+    },
+    {
+      "type": "paragraph",
+      "text": "How agentic video will play out in the enterprise There's no doubt that AI is transforming how we create content.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "With the latest models, anyone with the tools can create virtually anything.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "The question is, how is this impacting work?",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "More A/V, less ABC We'll consume more audio and video content than text.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "If you think about office jobs today, most of the communication is still in slides or written documents- mainly because it's cheaper and easier to produce content in these formats.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "In the next few years, the cost gap between creating a text document and video in the workplace will disappear.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "We'll enter a world where 45-second videos replace long slide decks, making training programs a lot easier to digest.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "And where video and audio will replace a lot of the content on a B2B website, enhancing the browsing experience.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "Personalization plus As history proves, every time we create new media technologies, we create new media formats that are native to those technologies.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "So now, we're moving into a world where every video can be truly personalized to the person watching it.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "We can generate the video first and foremost, but can also put an LLM on top of it to make a decision on how to personalize the video specific to that person.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "And we don't need a human in the loop to do this.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "Given all this, I think the experience of media in the future is going to be very different to what it is today- much more multimodal and rendered in real time for whoever's watching it.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of static content will take a backseat to just-in-time content generated just for you.\" Avatars for everyone Humans are attracted to faces.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "Being able to look at another person and take in their expression is a really important part of communication.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "Avatars will step into a new role here.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "They have evolved so much compared to early iterations, and will soon form part of a person's digital identity.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "You'll have an avatar version of yourself; an LLM of yourself.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "And you'll use it in all sorts of communication.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "Already, we're seeing people use avatars so they don't have to get in front of the camera all the time.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "For the enterprise, they'll prove useful in other ways, too.",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, say you've created a big library of video content for your customers, but the 'face' of the videos leaves the company.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "If it's an AI video, you just switch out the avatar to someone else.",
+      "page": 9
+    },
+    {
+      "type": "sub_heading",
+      "text": "Victor Riparbelli 3 1 2 9",
+      "page": 9
+    },
+    {
+      "type": "paragraph",
+      "text": "AI colleagues With AI systems being tuned in real-time, video agents and AI colleagues will come to the fore.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, think of a sales training situation where a video agent takes the employee through a role play experience with a customer prospect.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "Or an AI colleague who talks you through your employee feedback survey.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "We're increasingly moving towards a world where these AI colleagues become part of the lifecycle of the company.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "You'll have an avatar version of yourself; an LLM of yourself.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "And you'll use it in all sorts of communication.\" When building, test ideas with utility With everything changing so fast, startups need to get into experimentation mode.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "What are the right formats?",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "How will people want to engage with this stuff?",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "When you're experimenting, prioritize utility over novelty.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "Sure, you could build the cool, interesting thing with a high 'wow' factor that everyone talks about.",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "But if it doesn't have a strong real-world application, then it just remains a fun toy.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "You want it to become a real product.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "Remember, some things will take off; others won't.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "Enjoy the creative process.",
+      "page": 10
+    },
+    {
+      "type": "sub_heading",
+      "text": "Advice for founders Victor Riparbelli 3 1 2 10",
+      "page": 10
+    },
+    {
+      "type": "paragraph",
+      "text": "The ability to tell a great story is going to be the defining feature of filmmaking and content creation in the AI era.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "It won't be long before the craft of filmmaking will be distilled down into a single element: storytelling.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "With AI doing much of the heavy lifting in terms of production and execution, films will soon be made by individuals-similar to how a single person writes a book.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "While the process of creating the film may take time, just like writing a book does, it's not going to be a technical challenge.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather, filmmakers can focus on the story; and on shaping that story into something that really resonates with people.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "Here, I want to share some of the questions that are top of my mind-and those of the people I'm talking to day-to-day-as we navigate these new waters.",
+      "page": 11
+    },
+    {
+      "type": "sub_heading",
+      "text": "Freepik is an AI-powered creative platform serving over 100 million users worldwide.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Joaquín's leadership, it has scaled from a three-person startup into a global leader integrating millions of visual assets and advanced generative tools for image, video, and audio creation.",
+      "page": 11
+    },
+    {
+      "type": "paragraph",
+      "text": "A serial entrepreneur, Joaquín previously co-founded Panoramio, which became one of the first Spanish startups to be acquired by Google in 2007.",
+      "page": 11
+    },
+    {
+      "type": "sub_heading",
+      "text": "Joaquín Cuenca Abela Co-Founder and CEO, Freepik Joaquín Cuenca Abela 1 2 3 11",
+      "page": 11
+    },
+    {
+      "type": "sub_heading",
+      "text": "Will films as we know them disappear?",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "The short answer: no.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "Higher-end films will still be produced, with around 50 people working on them.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "These people will shape the story and craft the characters, drawing on unique human insight to bring them to life.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "It's the execution side of filmmaking that is more likely to disappear and be replaced by AI.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "And, as part of this, we're going to see many more use cases for videos that we can't even conceive of today.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're already seeing phenomenal expansion of AI video creation.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "It's been used all over the place-and I think that, this year, we will see more productions made by AI versus traditional filmmaking.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "In the next two or three years, it will take over economically, with AI productions collecting more revenue than traditional productions.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "There are a few verticals, like animation, where we simply can't keep doing it the old way.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "So, this year, animation will completely flip to a new model.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "Does AI have taste?",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "Another short (and controversial) answer: yes.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "With AI doing more and more, there's a lot of talk about 'taste' being this high-gear element that AI can't touch.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "I disagree.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "AI will have taste-and we will be able to tilt this taste into different directions.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "Indeed, AI is already showing us its creative side in the images and footage it's producing today.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "But while AI has taste, you can easily copy it.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "You can't do that with a human.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "You can't plug something in and get a perfect copy of someone else's mind.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather, humans have this unique, uncopyable element-our past experiences and everything that shaped us into who we are.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "With this in mind, my view is that, in the future, there will be economic value and there will be value in taking our experiences and pouring them into what we create.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "And that's where we differ from AI.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "Whereas AI creates content based on an echo of the past, humans create things by drawing on our unique, lived experiences.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "We must pour these experiences into our work to make something that you don't find in a machine.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "Doing so will help us create things that others hopefully find novel and interesting.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "There's a lot of talk about 'taste' being this high-gear element that AI can't touch.",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "I disagree.",
+      "page": 12
+    },
+    {
+      "type": "paragraph",
+      "text": "AI will have taste-and we will be able to tilt this taste into different directions.\" 1 2 12 Joaquín Cuenca Abela 3",
+      "page": 12
+    },
+    {
+      "type": "sub_heading",
+      "text": "How should we think about copyright in this new era?",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "As we move forward, the industry must become more pragmatic about how AI tools are trained.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Until now, people have focused on whether the AI companies have permission to use publicly available data to train their models.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "We're rapidly moving into a position where it's acceptable to use anything under fair use.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "With this in mind, we need to shift the conversation from copyright on the input images to responsibility for the output.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "That is, we need to make sure that whatever is produced by the AI is legally usable.",
+      "page": 13
+    },
+    {
+      "type": "sub_heading",
+      "text": "Remember, AI is a tool.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Like any tool, it can be used to violate IP by accident, so our role is to help users identify and avoid those situations.",
+      "page": 13
+    },
+    {
+      "type": "sub_heading",
+      "text": "Go out in the wild To build a meaningful startup, explore diverse lived experiences.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Travel, meet new people, learn new things-you'll gather a ton of ideas that will become more valuable than any algorithm.",
+      "page": 13
+    },
+    {
+      "type": "sub_heading",
+      "text": "Think of it like AI-it gives you, personally, a bigger training data set.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Think laterally The best ideas come from being a little bit out of the mainstream.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "It might be that you take a proven idea and use it in a different context.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Keep an open mind My biggest mistake in the past was believing that creativity was unique to humans.",
+      "page": 13
+    },
+    {
+      "type": "sub_heading",
+      "text": "Many things can be replicated mechanically.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "But the specific way you combine your life, your struggles, and your perspective into a message-that is something you won't find in a machine. 01 02 03 How do you build a winning startup?",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on my observations above and all the other things I'm seeing in the industry today, startups need to focus on differentiating characteristics.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "My advice is to: Travel, meet new people, learn new things-you'll gather a ton of ideas that will become more valuable than any algorithm.",
+      "page": 13
+    },
+    {
+      "type": "paragraph",
+      "text": "Think of it like AI-it gives you, personally, a bigger training data set.\" 02 03 Advice for founders 1 2 13 Joaquín Cuenca Abela 3",
+      "page": 13
+    },
+    {
+      "type": "sub_heading",
+      "text": "What once felt futuristic-like AI becoming a second brain-is almost here and now.",
+      "page": 14
+    },
+    {
+      "type": "sub_heading",
+      "text": "What will the future of user and consumer experiences look like?",
+      "page": 14
+    },
+    {
+      "type": "sub_heading",
+      "text": "How will we interact with AI?",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "As the world moves further into the AI era, questions like these are top of mind for investors like myself.",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "With things moving so fast, we need builders who have real intentionality about how we interact with AI.",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "We need builders who dream up totally new interfaces that can intuit and interpret our needs; those who design completely new modalities and mechanisms for AI-driven user experiences.",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "It's a period of extraordinary change in the media industry, and founders are ideally poised to seize upon the new opportunities that this evolving landscape presents.",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "As a Partner in Lux's New York City office, Grace Isford invests in companies at the nexus of data, AI infrastructure, AI applications, and AI in the physical world-from pre-seed to growth.",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "Before joining Lux, Grace was a principal at Canvas Ventures, where she started as a campus scout while at Stanford University before becoming a full-time investor in 2019.",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "Prior to Canvas, Grace worked on the LP side at the Stanford Management Company, in product at Handshake, and in growth equity at Stripes Group.",
+      "page": 14
+    },
+    {
+      "type": "sub_heading",
+      "text": "Grace Isford Partner, Lux Capital 1 2 3 14 Grace Isford",
+      "page": 14
+    },
+    {
+      "type": "paragraph",
+      "text": "If we reimagine the future of human-computer interaction, we can see a new world forming-one in which AI and your mind are married together in a really seamless way.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, we're starting to see some very interesting frontier advancements in the brain- computer interface space.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "It's a whole new modality, capable of intuiting and interpreting neural signals to then become an extension of your mind.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "In this future, we won't need to articulate what we want done-the neural device will just know.",
+      "page": 15
+    },
+    {
+      "type": "sub_heading",
+      "text": "While all this can feel far off, I believe we're getting closer.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "And we'll soon be at the point where we're not using our keyboards anymore, and just using our voice to get things done.",
+      "page": 15
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're on the cusp of completely new interfaces, personalized to every user.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "People still oversimplify AI, thinking of it in terms of chat bots or image bots.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "Very few understand how different our lives will be when generative AI is used in entirely new modalities.",
+      "page": 15
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're starting to see some very interesting frontier advancements in the brain-computer interface space.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "It's a whole new modality, capable of intuiting and interpreting neural signals to then become an extension of your mind.\" New modalities and the future of compute These new interfaces will have significantly higher compute needs.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "Even the video models that we're seeing today are a lot more compute intensive and require a different set of tools.",
+      "page": 15
+    },
+    {
+      "type": "sub_heading",
+      "text": "We'll need new video infrastructure companies to serve this demand.",
+      "page": 15
+    },
+    {
+      "type": "sub_heading",
+      "text": "Likewise, new interfaces will impact how we approach AI models.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "I believe technical architectures will become more focused on 'mini' models or smaller models that can do more with less, and can work in swarms.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "This approach is a lot more efficient from a compute perspective, plus there's the benefit of being able to run smaller models on a device.",
+      "page": 15
+    },
+    {
+      "type": "paragraph",
+      "text": "I'm excited to see the impact of these smaller models ultimately democratizing access to AI, making it cheaper and easier for more people to use the product. 1 2 15 Grace Isford 3",
+      "page": 15
+    },
+    {
+      "type": "sub_heading",
+      "text": "Be opinionated about your product Create something that feels authentic and unique to you.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "I particularly admire when founders have a point of view and a vision of how the world should be- and how the tools they are building fit into this world.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "I may not agree with their point of view, but I'm always looking for founders' unique insights, their earned insights, and how they think about the market in a way that other folks may not.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Know your technology In my experience, the best builders have a deep understanding of both tech stacks and creative requirements.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "This is particularly important right now, because we're still in an early phase of the tech growth of the sector-with AI only just starting to penetrate many of these creative companies.",
+      "page": 16
+    },
+    {
+      "type": "sub_heading",
+      "text": "Know what good taste means for your users Taste is the moat that matters.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "The best builders understand what good taste looks like in the eye of their users.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Where this gets complicated is that taste is subjective, and so 'good' for one app and its users may not be so good for another.",
+      "page": 16
+    },
+    {
+      "type": "sub_heading",
+      "text": "It all comes back to knowing your users really well.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Know your niche Find the go-to-market angle that's unique to you and most relevant to your product.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Don't try to create a product for everyone that does everything-sure, it could be great, but it's going to be really hard to find users and get quick feedback.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead, start with a hypothesis, then test and iterate until you have a more precise vision to scale with.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Persistently challenge the status quo The best founders are very inquisitive, constantly challenging the status quo and asking why things are the way they are.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "With this in mind, never assume that a given interface or a given product will continue to exist.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Ultimately, build a great product My best advice is to double down on creating value for your customers by building a great product that they really need, care about, and will pay for.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether you're in a bull market, a construction market, a bear market or beyond, this is the key to success. 01 05 04 06 How future-focused founders can grab investors' attention As we forge this new future for media, my advice to founders is to focus on the following key traits.",
+      "page": 16
+    },
+    {
+      "type": "paragraph",
+      "text": "I particularly admire when founders have a point of view, an opinion, and a vision of how the world should be- and how the tools they are building fit into this world.\" 02 03 1 2 Grace Isford 3 16",
+      "page": 16
+    },
+    {
+      "type": "sub_heading",
+      "text": "The latest generative media models are opening up vast new possibilities for AI builders.",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "Building AI tools with a generative media lens Despite all the breakthrough moments we've had with AI so far, we're only at the beginning of the journey.",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "Every new model shines a light on how much further we can go with it all.",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "Without being able to predict the future, one thing is clear: AI is fundamentally changing the way things work.",
+      "page": 17
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're already doing things that were never possible before.",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "And, because of this, we need to rethink a lot of what we've built so far and figure out if these things should continue to exist in the world or if they should take a different shape or form.",
+      "page": 17
+    },
+    {
+      "type": "sub_heading",
+      "text": "Jaclyn leads teams building the next generation of AI-first products.",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "Specializing in the 0-to-1 stage, she launched Google AI Studio and the Gemini API, making Google's most capable models widely accessible.",
+      "page": 17
+    },
+    {
+      "type": "sub_heading",
+      "text": "She also led Project Mariner, exploring human-agent interaction.",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "Currently, her portfolio spans diverse products-from Pomelli, which helps SMBs generate on-brand content, to experiments like Opal and Mixboard that reimagine creating with generative AI.",
+      "page": 17
+    },
+    {
+      "type": "sub_heading",
+      "text": "Jaclyn Konzelmann Director of Product Management, Google Labs Jaclyn Konzelmann 3 1 2 17",
+      "page": 17
+    },
+    {
+      "type": "paragraph",
+      "text": "A generative media lens is now being applied to how we build products and experiences for non-creative use cases.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, in education, students no longer need to follow a one-size-fits-all, linear path in a textbook.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead, they can access personalized lessons delivered across different media and modalities to suit their learning style and tastes.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "The ability to lean into generative media and create these immersive experiences on an individual basis is really exciting to think about.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Another example is world models, which carry so much potential for helping people master new skills through simulations.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Already, people can learn how to drive a car and fly a plane, but now we're seeing opportunities for all types of learning to be accessed in simulated worlds.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Ultimately, AI will enable us to go back to spending quality time with other people, doing things that may not have been possible before.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "When you think about all the crazy, wild things you want to do in life, they're probably all possible-but just take a lot of time or money.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "AI accelerates what's possible, reducing the barrier for creating real-world experiences.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "The question is, how can we apply all this to a better world?",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Purpose-built AI applications are not only changing how people express themselves, but how we get things done.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "As good as AI can be at executing things, humans still have an amazing role to play in providing the taste, the vision, and the decision on what should be built or created.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Just because anything can be built, it doesn't mean everything should be.\" AI will have a huge impact on creativity It's exciting to think about how generative media can apply to things like education and everyday tasks.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "But what about its impact on creativity?",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "Creative tools are going to look and feel a lot different in the future.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Previously, the limiting factor would be that people didn't have the right tools, or they didn't know how to use the tools.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "These traditional barriers to entry are rapidly dissolving.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "If I want to design a cute basket for my kid's bike, I can.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "If I want to create a watercolor painting, but don't know how to paint, I can.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "This ability for everyone to start doing things with new AI tools is going to unlock the next wave of creativity.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Then there are those that don't have the time for creativity, like busy solopreneurs or two-person startups.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "For these small businesses, generative media tools will transform how they create on-brand marketing assets.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "We've built a tool, Pomelli, that's geared towards exactly this.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomelli Pomelli is an AI marketing tool that helps you generate scalable, tailored, on-brand content to grow your business.",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "The marketing creatives generated with Pomelli can be downloaded and used across all social media platforms.",
+      "page": 18
+    },
+    {
+      "type": "sub_heading",
+      "text": "Learn more Jaclyn Konzelmann 3 1 2 18",
+      "page": 18
+    },
+    {
+      "type": "paragraph",
+      "text": "Humans will play a key role in directing AI models It never ceases to surprise me that, even when my AI agent presents me with a good idea, I still want to take it ten steps further-iterating and refining the work until I am completely happy with it.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "In this way, humans are becoming creative directors.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "It's on us to figure out what should be created; it's also on us to guide the AI and work with it to bring our vision to life.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "As humans become more familiar with AI tools and their possibilities, our creative vision will widen.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "We'll start exploring more comprehensive, complex, and imaginative things.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "And we'll rely on agents to do the toilsome, time-consuming work that previously hampered our creativity.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "As a founder, how do you take a step back from the hands-on work that you're used to, and allow the AI to become the worker instead?",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "How do you step into more of a creative director role?\" How founders can tap into the director mindset As a founder, how do you take a step back from the hands-on work that you're used to, and allow the AI to become the worker instead?",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "How do you step into more of a creative director role?",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Start by rolling up your sleeves and building things.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Choose projects that personally resonate.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, I always have around 12 side projects on the go at any one time, and they all help me push the limits of what's possible.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "When you're ready to start applying your learnings in a business context, identify a goal.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "Work with the AI and try different things until you land on a repeatable pattern.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Then, you can codify it, test it, and iterate some more.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Over time, you'll end up with a robust solution.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "If you feel stuck at any time, talk to Gemini or your AI.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "By articulating your roadblocks and ideating on the problem, the AI can help get you unstuck.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Lastly, keep persevering.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Don't assume that because you hit a dead end, you should stop.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Your agent could help you find a new path forward.",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "Granted, by the end of the process, you may have a workflow that looks very different to what you'd planned at the beginning.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "That's OK.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "If it works, you could be onto a winner.",
+      "page": 19
+    },
+    {
+      "type": "sub_heading",
+      "text": "Advice for founders 1 2 Jaclyn Konzelmann 3 19",
+      "page": 19
+    },
+    {
+      "type": "paragraph",
+      "text": "AI models are unlocking new forms of creativity and new types of content, ultimately disrupting how we interact with and consume media.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "In the AI era, media is becoming more customized and individually relevant The way we interact with media is changing fast.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "Once upon a time, we consumed information by watching TV, reading the newspaper, or using the internet.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "Then social media arrived, and we started getting our news there instead-while adding our own opinions to the mix.",
+      "page": 20
+    },
+    {
+      "type": "sub_heading",
+      "text": "Now, we're entering an era of bi-directional media.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "We communicate with a model, and it consumes information from us and the world around us to provide very specific, personalized output-all while remembering what we're interested in.",
+      "page": 20
+    },
+    {
+      "type": "sub_heading",
+      "text": "This bi-directional interaction is the future of media.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "We're going to consume information about the world in a way that's directly related to our world, who we are, what we care about, and what's influencing us.",
+      "page": 20
+    },
+    {
+      "type": "sub_heading",
+      "text": "And it's going to evolve the media industry in new and interesting ways.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "Darian has spent his entire career leading seed investments in category-defining AI companies and working with AI-first founders.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "A self-taught engineer, he founded Radius, a B2B Customer Data Platform that raised over $100MM and counted dozens of Fortune 500 companies as customers, running it as CEO for seven years.",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "Before that, he joined Facebook as one of its first engineers, reporting directly to Mark Zuckerberg.",
+      "page": 20
+    },
+    {
+      "type": "sub_heading",
+      "text": "He studied CS and Philosophy at UC Berkeley before dropping out.",
+      "page": 20
+    },
+    {
+      "type": "sub_heading",
+      "text": "Darian Shirazi Managing Partner, Gradient 1 2 3 20 Darian Shirazi",
+      "page": 20
+    },
+    {
+      "type": "paragraph",
+      "text": "Someone who may not have the motor skills to be a painter can now be a painter-if they have a vision for what that painting should be.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Indeed, the more tools we can give humans to create what they imagine, the more likely we are to see original content.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Similar to how computers unlocked new forms of art and expression like memes, the future is going to reveal even more sophisticated capabilities that we haven't even thought of yet.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "And so, founders should be thinking, \"How can I unlock new forms of human creativity?\" Whether the answer is a point solution or a more specific model for one type of creativity remains to be seen.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "But either way, I believe we're going to find the Picasso of this era as a result of creating new tools.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "New tools will drive regional demand These new types of creative tools will drive significant demand for local models in certain geographies; as well as the ability to serve and spin up models as needed- including on your own device.",
+      "page": 21
+    },
+    {
+      "type": "sub_heading",
+      "text": "This compute complexity places huge demand on infrastructure.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "We're going to see significantly more need for high-power chips and high-power data centers regionally.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Think about how much traffic social media has driven, and how these platforms created a modern economy around data centers.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "I think we're going to see 10x or more of that in the AI era-where consumers come from all parts of the world and are willing to pay to create their own apps, videos, images, and text.",
+      "page": 21
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're already starting to see it, and it's just the beginning.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "We're entering an era of bi-directional media-one where we communicate with a model, and it consumes information from us and the world around us to provide very specific, personalized output.\" Independent journalists will become the source of truth In this new world, where everyone can create quality content, legacy media brands will become less relevant.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of going to a portal to consume your media, it will be delivered to you through the model based on your personal preferences and the individuals you think are creating the best content.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "We won't trust the traditional media brands, whose left-leaning or right-leaning ideologies are often hidden by the portal we're consuming media through.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead, we'll trust individuals that have researched topics deeply and create their own content on that topic- and independent journalism will likely thrive.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Models will help minimize misinformation At the same time, models will get better at deciphering disinformation or misinformation from real information.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Users will be able to click through for evidence, and have the model explain why it thinks something is true or false.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Models naturally learn with more information and extensively cite sources of such learning-this is a major leap over social media which provides little to no evidence for even the most viral posts.",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Over time, we'll have more of a grounded truth in certain aspects of content that gets published to the internet. 1 2 New AI models allow people to create images, videos, and animations that they could only dream of before. 21 Darian Shirazi 3",
+      "page": 21
+    },
+    {
+      "type": "paragraph",
+      "text": "Bi-directional media in action We're working with one company that has built a voice assistant model that allows anyone to communicate a memoir.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "You can give it to your grandparents, and they can tell their life story through this two-way script.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "It then combines their stories with other life stories and photos from your family, as well as other events that happened in the world.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "The long-term vision is that you can communicate with your relatives after they have passed away.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "You'll have a digital twin of all the meaningful people in your life.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "It's a form of media that we haven't had before.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone can write a life history in a book, but it can be hard for others to consume that information.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "Talking to an ancestor is a much more interesting way to not only learn their life story, but also learn about the world during that period.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Models will get better at deciphering disinformation or misinformation from real information.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "Users will be able to click through for evidence, and have the model explain why it thinks something is true or false.\" How founders can thrive in this new media landscape Be curious We always seek out polymathematical, autodidactic founders-people who are always learning new things and are good at multiple things.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "It's about your ability to come up with something brand new, unique, and defensible.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "Let go of 'good enough' Founders should not be afraid to burn down something that is working, but not working well enough.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "As models get better, we're seeing businesses and ideas get disrupted more and more.",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "Build your moat One way you can future-proof your startup in this rapidly evolving space is by looking at your data moat.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Do you have a data moat?",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Do you have data network effects?",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Can you build a product where every new user adds value to everybody?",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Tie KPIs to AI usage Measure how your company uses AI.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Do your employees need training?",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Could they prompt more effectively?",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Is data fragmentation a bottleneck?",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "Armed with answers, you can iteratively improve AI adoption-which ultimately helps your employees do their work more effectively.",
+      "page": 22
+    },
+    {
+      "type": "sub_heading",
+      "text": "Advice for founders 1 2 Darian Shirazi 3 22",
+      "page": 22
+    },
+    {
+      "type": "paragraph",
+      "text": "From prompt to play, AI is reshaping the gaming industry Generative AI is the greatest creation tool in the history of humanity.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "Its potential is endless-helping people create things they could never make before, at significantly lower cost.",
+      "page": 23
+    },
+    {
+      "type": "sub_heading",
+      "text": "Watching it evolve is fascinating.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "While we're still in the silly phase of content creation with generative tools, the content is getting richer every month.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "Besides, you need the silly stuff-and all the silly apps-to get to the interesting stuff.",
+      "page": 23
+    },
+    {
+      "type": "chapter_title",
+      "text": "This is particularly true in gaming.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "Generative AI makes it easier for game creators to make content they couldn't make before, and really bring their great storylines and interesting characters to life.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "David is a Team Lead in Google's Creative Lab, which helps invent Google's future and communicate the company's innovations to the world.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "He is also Co-Founder and Co-Lead at Google's AI Futures Fund, which launched in 2025 to help startups at various growth stages get early access to Google DeepMind's latest AI models as well as resources, technical expertise, and potential equity funding to accelerate their progress.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "At Google, David focuses on researching emerging tech, incubating experimental prototypes, and investing in/partnering with startups.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "He's worked on projects involving many of Google's core products, including Gemini, YouTube, Google Maps, Google Play, and Ads.",
+      "page": 23
+    },
+    {
+      "type": "paragraph",
+      "text": "David Benjamin Team Lead, Creative Lab and Co-Founder, AI Futures Fund, Google David Benjamin Generative media not only levels the playing field for content creators in the gaming industry.",
+      "page": 23
+    },
+    {
+      "type": "sub_heading",
+      "text": "It creates whole new playing fields. 1 2 3 23",
+      "page": 23
+    },
+    {
+      "type": "sub_heading",
+      "text": "Many elements of high-fidelity game production will be democratized.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "It will allow small teams and, eventually, individual creators to achieve the scale and polish previously reserved for massive gaming studios.\" David Benjamin 1 2 David Benjamin 3 While the gaming industry is the most valuable part of the entertainment ecosystem in terms of net revenue, it's always been hard to create great games.",
+      "page": 24
+    },
+    {
+      "type": "sub_heading",
+      "text": "Creators needed proficiency in many different tools and skill sets.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "Now, anyone can make a game-and not just any game, but 3D world games and, soon, even AAA games.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "These massive AAA games used to cost tens, if not hundreds, of millions of dollars to produce.",
+      "page": 24
+    },
+    {
+      "type": "sub_heading",
+      "text": "Not anymore.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "With AI handling a lot of the heavy lifting of asset creation, many elements of high-fidelity game production will be democratized.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "It will allow small teams and, eventually, individual creators to achieve the scale and polish previously reserved for massive gaming studios.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "These creators will be on the lookout for creation tools that can effectively translate their specific vision into a finished product with speed and precision-which points to a big opportunity for startups.",
+      "page": 24
+    },
+    {
+      "type": "sub_heading",
+      "text": "As generative media democratizes the ability to create compelling gaming experiences, new opportunities emerge.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond AAA games, generative media will also help open up new genres and styles of game play: • Generative UGC: User-generated content will become generative as we move beyond simple models to AI tools that allow players to architect entire worlds and consumption experiences in real time. • Deep personalization: We will see the rise of 'liquid games' that evolve their mechanics based on player behavior, effectively rethinking traditional genre boundaries at both the indie and AAA levels. • Interactive 3D environments: The tech will eventually bridge the gap between video and play, allowing users to step inside a 2D frame and explore a fully interactive 3D environment. • New social creation hubs: A new wave of mini-game platforms will emerge, centered on AI-driven creation and social mechanics.",
+      "page": 24
+    },
+    {
+      "type": "sub_heading",
+      "text": "On these platforms, the act of creating together is the primary loop.",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "In a world where every solo developer has access to AAA-level asset generation, gaming startups need to differentiate by developing human-driven, world-class narratives; and by demonstrating creative taste and recognizable IP. 24",
+      "page": 24
+    },
+    {
+      "type": "paragraph",
+      "text": "Other thoughts on the future of generative media Forward-thinking UX The ultimate user experience is not a chat bot.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "With a chat bot, we still have to think about what to ask, and we get stuck with the blinking cursor problem of, \"What do I type here?\" Rather, it's a personalized, dynamic UI that morphs into the specific need you have at a given time.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "We're seeing seeds of it sprout right now through vibe coding tools that add different layers over a prompt box.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "But to get to the point where the system knows exactly the interface you need at the right time, for the right purpose-which is essentially the holy grail of generative AI UX-we'll need more time.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "Gaming startups need to differentiate by developing human-driven, world-class narratives; and by demonstrating creative taste and recognizable IP.\" The value of creativity We will always gravitate to great human artists.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "In a world where there are more and more synthetic artists, the value of human art and creativity will rise.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "The best human creators will continue to be the best- and will command a premium.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "For those using generative media, the value will lie in rethinking what it means to make content-and thinking about new ways to create media content across the entire stack with generative AI tools.",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "Strive for vertical excellence Instead of building a broad, generic layer, focus on a loyal community and develop a specialized AI solution that solves their specific, high-value problems.",
+      "page": 25
+    },
+    {
+      "type": "sub_heading",
+      "text": "Once you've nailed that, expand from there.",
+      "page": 25
+    },
+    {
+      "type": "sub_heading",
+      "text": "Advice for founders 1 2 25 David Benjamin 3",
+      "page": 25
+    },
+    {
+      "type": "paragraph",
+      "text": "With adoption of automated content creation tools growing fast, authenticity and human experience will become invaluable.",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "Creating authentic moments on social media in the AI era Right now, we are witnessing an explosion of video content on social media, with the creation of AI- generated videos becoming as easy as applying a camera filter effect.",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "While these technically polished production capabilities are becoming accessible to everyone, the content often feels soulless, generic, and homogeneous.",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "As automation accelerates and video production becomes more affordable, 'human' elements like story judgment, taste, and unique points of view are becoming exponentially more valuable.",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "OpusClip is an AI-powered video editing platform that helps creators and businesses turn long-form videos into viral short clips, in one click.",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "Before launching the startup in 2022, Grace and her fellow co-founders led a 500-person social media talent agency, an experience that directly informed their understanding of the challenges creators face.",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "Under her leadership, the company has grown to serve over 16 million users and secured significant strategic funding from investors like SoftBank Vision Fund 2.",
+      "page": 26
+    },
+    {
+      "type": "sub_heading",
+      "text": "Grace Wang Co-Founder and CMO, OpusClip 1 2 3 26 Grace Wang",
+      "page": 26
+    },
+    {
+      "type": "paragraph",
+      "text": "With more elements of video production being automated, the editors, producers, and animators of tomorrow will look very different to what they look like today.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of possessing advanced editing skills, for example, an editor will instead act more like a creative director or narrative supervisor, and will get AI models to do the heavy lifting.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "It means that the AI tools and models themselves will need to precisely understand their users-and know exactly how to personalize content and enhance storytelling for every creator in the business.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "Opportunities for AI on social platforms Character creation AI will have an impact on the characters we use to create content.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "We'll soon see more AI actors and characters that may have huge creative teams behind them.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "As long as the creators themselves bring their unique personality and valuable experience, the AI actors' identities can be sustained.",
+      "page": 27
+    },
+    {
+      "type": "sub_heading",
+      "text": "Viral moments AI needs to evolve beyond 'past knowledge' to really grasp virality.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "Because it is trained on existing patterns, it struggles to generate the 'net new' novelty that top creators aim for.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "It's possible to engineer virality to some extent by using models to research trends, discover popular opinions, and create attention- grabbing quotes.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "However, to create a true viral moment, you need something people have never seen before.",
+      "page": 27
+    },
+    {
+      "type": "sub_heading",
+      "text": "I see an opportunity for AI in the future here.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "As content creators strive for more authenticity, the future creative landscape will shift away from traditional skills.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "As automation accelerates and video production becomes more affordable, 'human' elements like story judgment, taste, and unique points of view are becoming exponentially more valuable.\" Voiceovers Voice cloning and translations are a really interesting space for AI.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "Today, we're seeing that local audiences still prefer authentic voices in films and clips, opting to read translated captions instead of listening to generated voiceovers.",
+      "page": 27
+    },
+    {
+      "type": "sub_heading",
+      "text": "Because AI can't quite capture the emotion and personality of original voiceovers yet.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "It points to a real opportunity for startups to capture market share in this space in the future.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "Long-form content Today's social platforms monetize the audience's attention, with engagement metrics like watch rate and time dominating algorithms.",
+      "page": 27
+    },
+    {
+      "type": "sub_heading",
+      "text": "Right now, short-form AI videos are popular and perform really well.",
+      "page": 27
+    },
+    {
+      "type": "paragraph",
+      "text": "But I still believe there is a place for long-form content, and an opportunity for AI-made videos to make it into a 3-minute, 10-minute, or 30-minute story. 1 2 Grace Wang 3 27",
+      "page": 27
+    },
+    {
+      "type": "sub_heading",
+      "text": "Authentic storytelling This is driven by a creator's distinct personality and unique lived experiences.",
+      "page": 28
+    },
+    {
+      "type": "sub_heading",
+      "text": "It's about creators sharing their point of view with their audience.",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "Emotional depth Content must resonate, creating a sense of rage or empathy; otherwise, it's just AI slop that people won't watch for more than a few seconds.",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "Taste The ability to spot what's working or what feels off is a critical gap that AI cannot yet bridge on its own. 01 Three pillars of winning content In this new ecosystem, three things will truly differentiate content and determine who 'wins' on social media.",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "With more elements of video production being automated, the editors, producers, and animators of tomorrow will look very different to what they look like today.\" 02 03 For your startup to succeed, hire AI builders In my opinion, the best way for startups to scale is to hire AI builders, who essentially become the managers of AI agents.",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "So instead of hiring people defined by traditional functions, you might see a marketer or salesperson become an engineer.",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "We already see this in a lot of startups where small teams can achieve huge impact.",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "You don't have to scale the marketing team size because the marketing engineers have built up a workflow that previously required a team of ten to accomplish-whereas now one or two marketers can do the entire workflow.",
+      "page": 28
+    },
+    {
+      "type": "sub_heading",
+      "text": "Advice for founders 1 2 Grace Wang 3 28",
+      "page": 28
+    },
+    {
+      "type": "paragraph",
+      "text": "Flat AI visuals set the foundation-now richer modalities are taking shape that benefit brands and users alike.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "AI's transformative role in A/B testing, acoustics, 3D experiences, and more Generative AI has moved beyond creating single, flat images.",
+      "page": 29
+    },
+    {
+      "type": "sub_heading",
+      "text": "Now, it can deliver layered compositions with editable text and elements.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "If you combine this with the ubiquity of agents, you basically have a co- creator sitting right there with you.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "Your co-creator understands color theory and composition, and can ideate with you on the design.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "With agents now acting as co-creators, people are empowered to design whatever they dream about, in very professional ways.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "Ultimately, it closes the gap between an idea that you want to explore and what you end up producing-giving you more time to spend on creative judgment.",
+      "page": 29
+    },
+    {
+      "type": "sub_heading",
+      "text": "A year or so ago, having an AI agent as a co-creator felt far-fetched.",
+      "page": 29
+    },
+    {
+      "type": "sub_heading",
+      "text": "Now, even more ambitious possibilities are within reach.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "Here, I share my thoughts about what's on the horizon at the nexus of AI and creativity.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "Leonardo.Ai is a powerful AI creative suite for generating production-ready images, videos, and print designs for marketing campaigns, websites, product visuals, storyboards, and more.",
+      "page": 29
+    },
+    {
+      "type": "sub_heading",
+      "text": "Sami is the Co-Founder of Leonardo.Ai.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "He has also done AI research at the Fraunhofer HHI in Berlin, and before that worked as a full- stack developer at a German startup.",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "He has a bachelors degree in computer science with a background in hardware and software.",
+      "page": 29
+    },
+    {
+      "type": "sub_heading",
+      "text": "Sami Ede Co-Founder and Senior ML Researcher, Leonardo.Ai 1 2 3 29 Sami Ede",
+      "page": 29
+    },
+    {
+      "type": "paragraph",
+      "text": "True multimodality Multimodality is extremely interesting to think about because it broadens the model's view on the world.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "The way I see it, this modern frontier has two ways in.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "The first is to look at existing world models and their 3D environments.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "You can add more modalities to these interactive experiences, like a soundscape or other effects.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "We're starting to see some impressive results from startups in this space.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "But in the end, for now, these world models only learn from video images and computer game data.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "They can't capture the nuances of human interaction.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "So the second angle, which may not be solvable in the short term, is more about asking: How do you capture the uncapturable?",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "How do you feed lived experience into an AI model for more holistic multimodality?",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "I look forward to seeing what researchers come up with in this space.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "End-to-end agent workflows Most of us use agents to transcribe meetings, send emails, and so on.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "But what if the agent that transcribes your creative brainstorming meeting then goes off and executes some of the ideas coming out of that meeting-or even orchestrates the whole campaign?",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "For example, say you discuss an idea for a new advertising campaign.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "Straight after the meeting, the agent comes up with a central character and storyline, generates consistently themed videos, stitches together clever transitions, and adds some sound.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "The human steps in for curation, iteration, and sign off-but the agents handle the bulk of the work.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "You're not building tools anymore.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather, you need to build entire workflows that capture the user end-to-end.\" A/B testing with digital twins AI agents create an opportunity to build rich profiles.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "It's like digital twinning at scale.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "For example, say you have an agent that serves 200 customers.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "It can build user profiles for every one of these customers.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "The company can then use these profiles for A/B testing before they spend a single dollar or start building the actual product.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "It means you don't have to create personas anymore.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "Instead, you can test ideas at scale without having to talk to people.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "It also leads to powerful personalization and the curation of content for individual customers.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "Interestingly, this might see the current flood of content abate, replaced with scarcity.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of throwing content out there and seeing if it sticks, companies can offer people perfectly curated experiences-something thoughtful that fits their environment and the mood they're in.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "Generating spatial acoustics and haptics AI is extremely good at learning, and it won't be long before it's creating spatial experiences.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "The means of distribution-like surround sound speakers and headphones-have been around for decades.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "If someone puts in the time, budget, and training data, I am absolutely certain that AI will be able to learn how to do this and commoditize AI-generated spatial acoustics.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "Haptics is way more interesting.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "We already have the interface-think of a certain laptop touchpad.",
+      "page": 30
+    },
+    {
+      "type": "sub_heading",
+      "text": "It may be possible to simulate textures by dragging your finger around that touchpad.",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "Once we get more tailored actuators in this area I think haptics can easily become part of a brand's toolkit, learnable and generated by AI. 1 2 Sami Ede 3 30",
+      "page": 30
+    },
+    {
+      "type": "paragraph",
+      "text": "Generating relatable 3D models The next step will be interactive worlds where users can tailor the experience in real time using text or voice input.",
+      "page": 31
+    },
+    {
+      "type": "paragraph",
+      "text": "For brands, this could replace linear go-to-market campaigns like videos or landing pages; instead offering a tailored experience within the boundaries of brand guidelines that is interactive and tailored to the user.",
+      "page": 31
+    },
+    {
+      "type": "paragraph",
+      "text": "These 3D experiences would feel more familiar to what the user experiences day-to-day, creating more affinity and offering so much potential for brands.",
+      "page": 31
+    },
+    {
+      "type": "paragraph",
+      "text": "What if the agent that transcribes your creative brainstorming meeting then goes off and executes some of the ideas coming out of that meeting-or even orchestrates the whole campaign?\" From building tools to entire workflows For founders wanting to pursue one of the bold new directions that generative AI is taking us, remember this: you're not building tools anymore.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "Rather, you need to build entire workflows that capture the user end-to-end.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "This way, the user never leaves your experience.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "In this competitive market, you also need to consider distribution costs and compute availability.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "GPUs are scarce right now, and you need to factor this scarcity in.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "Consider whether you can guarantee enough compute for your customers as you grow.",
+      "page": 31
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're offering a great product, but it's not available because the APIs are overwhelmed or you can't serve it yourself or latency is too high, then people will look to other workflows.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "But when you get it right, then exciting new opportunities and pathways open up.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "So it's definitely a space worth getting involved in.",
+      "page": 31
+    },
+    {
+      "type": "sub_heading",
+      "text": "Advice for founders 1 2 Sami Ede 3 31",
+      "page": 31
+    },
+    {
+      "type": "paragraph",
+      "text": "Prompt Editorial style photo, female model is wearing jeans, yellow top with polka dots, headband, red heels, black bag on her arm.",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "She is holding an iced matcha latte in one hand and in the other hand she is holding a leash on a chow chow dog.",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "She is standing in front of the house in Beverly Hills, looking into the camera.",
+      "page": 33
+    },
+    {
+      "type": "sub_heading",
+      "text": "Respect the overall aesthetic and color palette of the photo with the house.",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "There is a white logo \"Love Letters\" with 10% opacity shadow in the lower left corner.",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "Image Gemini Image Gemini Image (Nano Banana) is Google's state-of- the-art image generation and editing model, built on Gemini.",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "It uses advanced reasoning to deliver exceptional prompt adherence, allowing you to create and refine high-fidelity visuals conversationally.",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "Its most impressive capabilities include rendering accurate text directly into images, maintaining strict character and object consistency across different scenes, and grounding visuals with real-time information from Google Search.",
+      "page": 33
+    },
+    {
+      "type": "sub_heading",
+      "text": "Try Gemini Image View prompt guide 1 Build with Google 3 2 33",
+      "page": 33
+    },
+    {
+      "type": "paragraph",
+      "text": "1 Build with Google 3 2 34 Veo Veo is Google's state-of-the-art video generation model, capable of producing high-fidelity 4, 6, or 8-second clips in up to 4K resolution with stunning cinematic realism.",
+      "page": 34
+    },
+    {
+      "type": "paragraph",
+      "text": "Its most groundbreaking feature is the ability to natively generate synchronized audio- including spoken dialogue, sound effects, and ambient noise-directly alongside the video.",
+      "page": 34
+    },
+    {
+      "type": "paragraph",
+      "text": "It also offers unprecedented creative control, allowing you to seamlessly extend existing clips, use reference images to maintain strict character consistency, and precisely guide transitions by specifying the exact first and last frames of a scene.",
+      "page": 34
+    },
+    {
+      "type": "sub_heading",
+      "text": "Prompt Camera dramatically dollies around the subject in this striking cinematic scene.",
+      "page": 34
+    },
+    {
+      "type": "sub_heading",
+      "text": "It captures a high-tension moment within a long, sterile, monochromatic green corridor.",
+      "page": 34
+    },
+    {
+      "type": "paragraph",
+      "text": "A lone woman, dressed in a dark, flowing trench coat and trousers that billow dramatically, is suspended mid-air in a powerful, graceful leap.",
+      "page": 34
+    },
+    {
+      "type": "sub_heading",
+      "text": "Her arms are outstretched as if bracing for impact or propelling herself forward.",
+      "page": 34
+    },
+    {
+      "type": "sub_heading",
+      "text": "Her sharp profile reveals an intense, focused expression, suggesting profound determination.",
+      "page": 34
+    },
+    {
+      "type": "sub_heading",
+      "text": "Try Veo View prompt guide Video",
+      "page": 34
+    },
+    {
+      "type": "paragraph",
+      "text": "1 Build with Google 3 2 35 Prompt [excited] Welcome to the next generation of Gemini Text- to-Speech! [medium pause] [positive] Let's skip the boring instructions and just show you what it can do. [short pause] By simply typing in brackets, you can completely hijack the emotional tone.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Watch this. [short pause] We can drop down into a [slow] [whispering] dark, suspenseful whisper where every single syllable matters... [short pause] [extremely fast] [panicked] Or we can speed things up to absolute panic mode because we are running out of time! [long pause] [heavy sigh] [neutral] The model breathes.",
+      "page": 35
+    },
+    {
+      "type": "sub_heading",
+      "text": "It feels. [laughs harder] It even laughs! [short pause] [positive] But honestly?",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "My favorite feature is the pacing. [medium pause] Because sometimes, the most powerful thing you can say is... [long pause] [whispering] ...nothing at all.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Gemini Audio Gemini Audio is a suite of models designed to process and generate expressive sound.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "For audio understanding, it transforms lengthy, unstructured recordings into clean data, complete with accurate transcriptions, speaker separation, and emotion detection.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Its text-to-speech capabilities allow you to produce dynamic single or multi-speaker performances by prompting for specific styles, accents, and pacing.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, it translates speech across over 70 languages while using style transfer to preserve the original speaker's unique intonation.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Lyria Lyria is a family of music generation models designed to produce high-fidelity, professional- grade stereo audio.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "These models excel at structural control, allowing you to seamlessly dictate musical architecture like intros, verses, choruses, and bridges using natural language timestamps.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Lyria can generate vocal performances in eight different languages, giving you the flexibility to guide the overall vocal style and lyrics to perfectly match your composition.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "Prompt [00:00] Begin immediately with a massive gospel choir singing a powerful, uplifting harmony about being kind to yourself. [00:15] A heavy, modern hip-hop drum beat and a deep 808 bassline drop in, matching the energy of the choir. [00:30] A male lead vocalist begins rapping a confident verse about overcoming life's challenges, while the large choir punctuates his lines in the background. [01:10] Transition into a huge, triumphant chorus celebrating victory and winning.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "The gospel choir sings at full volume, layering rich, soulful harmonies over the driving hip-hop beat and triumphant brass horns. [01:50] The beat strips back to just a gentle Hammond B3 organ.",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "The rapper delivers a quiet, emotional bridge about giving yourself grace, supported by soft, warm hums from the massive choir. [02:10] The full hip-hop beat and the giant choir return at maximum energy for an uplifting final chorus, before ending on a resonant, sustained choir chord at [03:00].",
+      "page": 35
+    },
+    {
+      "type": "sub_heading",
+      "text": "Listen here Try Lyria View prompt guide Try Gemini Audio Music Speech",
+      "page": 35
+    },
+    {
+      "type": "paragraph",
+      "text": "1 Build with Google 3 2 36 Genie Genie is a general-purpose world model that simulates the physics and dynamics of physical environments.",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than generating static 3D snapshots, it creates the path ahead frame-by- frame based on your text descriptions, image prompts, and in-world actions.",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "You can use it to sketch entirely new living ecosystems, remix existing environments, or trigger promptable events like changing weather conditions on the fly.",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "This enables highly consistent world simulations that can be used for everything from immersive fiction to safely training autonomous vehicles.",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "Gemini Live Gemini Live enables you to build low-latency voice and vision agents that interact at the natural speed of conversation.",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "It processes continuous streams of audio, video, and text to deliver fluid spoken dialogue while effectively filtering out background noise.",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "The model provides robust multilingual support, seamlessly triggers external tools, and strictly adheres to complex instructions to keep your conversational agents securely on track.",
+      "page": 36
+    },
+    {
+      "type": "sub_heading",
+      "text": "Try Gemini Live Try Genie View prompt guide Real-time",
+      "page": 36
+    },
+    {
+      "type": "paragraph",
+      "text": "Sign up Sign up for monthly sessions with Google Cloud's AI experts Contact our startup sales team Contact us Get the latest updates with our startup newsletter Subscribe Turn your AI vision into reality",
+      "page": 37
+    }
+  ]
+}
